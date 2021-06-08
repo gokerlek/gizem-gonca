@@ -13,3 +13,5 @@ fields:
   config:
     required: true
   label: Title
+pages:
+- src/cms/soru-1.json
