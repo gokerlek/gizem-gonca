@@ -31,5 +31,3 @@ fields:
     max: 
     labelField: 
   label: Sounds
-pages:
-- src/cms/goker.json
