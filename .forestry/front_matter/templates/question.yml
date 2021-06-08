@@ -14,7 +14,7 @@ fields:
   - name: notes
     type: field_group_list
     fields:
-    - name: notes
+    - name: note
       type: select
       default: A3
       config:
@@ -44,7 +44,16 @@ fields:
           section: sounds
           file: 
           path: 
-      label: Notes
+      label: Note
+    - name: notee
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: false
+        schema:
+          format: markdown
+      label: notee
     config:
       min: 
       max: 
