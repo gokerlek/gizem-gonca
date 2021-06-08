@@ -22,5 +22,26 @@
       "C5",
       "C4"
     ]
-  }
+  },
+  "sounds": [
+    {
+      "questions": [
+        {
+          "title": "soru2",
+          "notes": [
+            {
+              "template": "notes",
+              "note": "C5"
+            }
+          ]
+        },
+        {
+          "title": "Soru 1",
+          "notes": [
+
+          ]
+        }
+      ]
+    }
+  ]
 }
