@@ -49,3 +49,5 @@ fields:
     max: 
     labelField: 
   label: oner
+pages:
+- src/cms/goker.json
