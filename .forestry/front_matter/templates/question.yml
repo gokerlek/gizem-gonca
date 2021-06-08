@@ -16,7 +16,8 @@ fields:
     - name: notes
       type: blocks
       label: Notes
-      template_types: []
+      template_types:
+      - notes
       config:
         min: 
         max: 
