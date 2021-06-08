@@ -19,5 +19,10 @@ fields:
       max: 
     label: notes
   label: Questions
+- name: goker
+  type: include
+  config: {}
+  template: question
+  label: GOKER
 pages:
 - src/cms/goker.json
