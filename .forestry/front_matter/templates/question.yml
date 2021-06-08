@@ -45,15 +45,7 @@ fields:
           file: 
           path: 
       label: Note
-    - name: notee
-      type: textarea
-      default: ''
-      config:
-        required: false
-        wysiwyg: false
-        schema:
-          format: markdown
-      label: notee
+      hidden: true
     config:
       min: 
       max: 
