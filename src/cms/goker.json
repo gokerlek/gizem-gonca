@@ -42,7 +42,10 @@
         {
           "title": "Soru 1",
           "notes": [
-
+            {
+              "template": "notes",
+              "note": "goker"
+            }
           ]
         }
       ]
