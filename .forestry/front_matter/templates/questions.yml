@@ -1,6 +1,7 @@
 ---
 label: questions
-hide_body: true
+hide_body: false
+display_field: note
 fields:
 - name: note
   type: text
