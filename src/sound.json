@@ -3,16 +3,16 @@
           {
                "title": "soru adı",
                "notes": [
-                    { "note": "C3" },
+                    { "note": "A3" },
                     { "note": "C4" },
                     { "note": "C5" },
-                    { "note": "C6" },
-                    { "note": "C7" }
+                    { "note": "D4" },
+                    { "note": "E4" }
                ]
           },
           {
                "title": "soru adı",
-               "notes": [{ "note": "C3" }]
+               "notes": [{ "note": "E5" }]
           }
      ]
 }
