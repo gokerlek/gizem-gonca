@@ -9,7 +9,6 @@ sections:
 - type: document
   path: src/cms/**/*
   label: Deneme
-  match: "**/*"
 - type: directory
   path: src/cms
   label: Sounds
@@ -19,7 +18,7 @@ sections:
   templates:
   - questions
 upload_dir: uploads
-public_path: "/uploads"
+public_path: "/images"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
