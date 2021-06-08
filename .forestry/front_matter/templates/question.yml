@@ -1,6 +1,27 @@
 ---
 label: Question
 hide_body: true
-fields: []
+fields:
+- name: questions
+  type: field_group_list
+  fields:
+  - name: note
+    type: blocks
+    label: Note
+    template_types:
+    - note
+    config:
+      min: 
+      max: 
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Title
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Questions
 pages:
 - src/cms/D4.json
