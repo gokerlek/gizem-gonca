@@ -1,13 +1,30 @@
 {
   "questions": [
     {
+      "title": "Soru Adı",
+      "notes": [
+        {
+          "note": "A3",
+          "notee": "g"
+        }
+      ]
+    },
+    {
       "title": "4lü kulak",
       "notes": [
         {
-          "notes": "As4"
+          "note": "A3",
+          "notee": ""
         },
         {
-          "notes": "A4"
+          "notes": "As4",
+          "note": "",
+          "notee": ""
+        },
+        {
+          "notes": "A4",
+          "note": "",
+          "notee": ""
         }
       ]
     }
