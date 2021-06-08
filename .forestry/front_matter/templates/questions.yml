@@ -1,4 +1,10 @@
 ---
 label: questions
 hide_body: true
-fields: []
+fields:
+- name: note
+  type: text
+  config:
+    required: false
+  label: note
+  description: C4
