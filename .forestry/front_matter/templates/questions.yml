@@ -9,5 +9,3 @@ fields:
     required: false
   label: note
   description: C4
-pages:
-- src/cms/D4.json
