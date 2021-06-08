@@ -10,8 +10,6 @@ sections:
   create: documents
   match: "**/*"
   new_doc_ext: json
-  templates:
-  - questions
 upload_dir: uploads
 public_path: "/images"
 front_matter_path: ''
