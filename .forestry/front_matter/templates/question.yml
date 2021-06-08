@@ -5,3 +5,47 @@ fields:
 - type: text
   name: note
   label: note
+- name: goker
+  type: field_group
+  config: {}
+  fields:
+  - name: note
+    type: blocks
+    label: note
+    template_types: []
+    config:
+      min: 
+      max: 
+  - name: notes
+    type: list
+    config:
+      use_select: false
+      min: 
+      max: 
+    label: notes
+  label: goker
+- name: gizem
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: gizem
+- name: oner
+  type: field_group_list
+  fields:
+  - name: note
+    type: text
+    config:
+      required: false
+    label: note
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: oner
