@@ -1,35 +1,6 @@
 ---
 label: Question
 hide_body: true
-fields:
-- name: sounds
-  type: field_group_list
-  fields:
-  - name: questions
-    type: field_group_list
-    fields:
-    - name: title
-      type: text
-      config:
-        required: false
-      label: Title
-    - name: notes
-      type: blocks
-      label: Notes
-      template_types:
-      - notes
-      config:
-        min: 
-        max: 
-    config:
-      min: 
-      max: 
-      labelField: 
-    label: Questions
-  config:
-    min: 
-    max: 
-    labelField: 
-  label: Sounds
+fields: []
 pages:
 - src/cms/D4.json
