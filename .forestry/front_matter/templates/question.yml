@@ -5,19 +5,51 @@ fields:
 - name: questions
   type: field_group_list
   fields:
-  - name: note
-    type: blocks
-    label: Note
-    template_types:
-    - note
-    config:
-      min: 
-      max: 
   - name: title
     type: text
     config:
       required: false
     label: Title
+    default: Soru Adı
+  - name: notes
+    type: field_group_list
+    fields:
+    - name: notes
+      type: select
+      default: A3
+      config:
+        required: false
+        options:
+        - A3
+        - A4
+        - As3
+        - As4
+        - B3
+        - B4
+        - C4
+        - C4
+        - Cs4
+        - Cs5
+        - D4
+        - D5
+        - Ds4
+        - Ds5
+        - E4
+        - E5
+        - F4
+        - Fs4
+        - G4
+        source:
+          type: simple
+          section: sounds
+          file: 
+          path: 
+      label: Notes
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Notes
   config:
     min: 
     max: 
