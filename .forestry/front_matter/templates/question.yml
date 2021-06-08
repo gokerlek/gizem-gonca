@@ -45,7 +45,16 @@ fields:
           file: 
           path: 
       label: Note
-      hidden: true
+      hidden: false
+    - name: notee
+      type: list
+      config:
+        use_select: false
+        min: 
+        max: 
+        source:
+          type: simple
+      label: notee
     config:
       min: 
       max: 
