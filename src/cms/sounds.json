@@ -1,51 +1,16 @@
 {
   "questions": [
     {
-      "title": "3 ses",
+      "id": 1,
+      "title": "ikili 12",
       "notes": [
         {
-          "note": "A3",
-          "notee": ""
+          "note": "As4",
+          "id": 2
         },
         {
           "note": "A3",
-          "notee": ""
-        },
-        {
-          "note": "A3",
-          "notee": ""
-        },
-        {
-          "note": "A3",
-          "notee": ""
-        }
-      ]
-    },
-    {
-      "title": "Soru Adı",
-      "notes": [
-        {
-          "note": "A3",
-          "notee": "g"
-        }
-      ]
-    },
-    {
-      "title": "4lü kulak",
-      "notes": [
-        {
-          "note": "A3",
-          "notee": ""
-        },
-        {
-          "notes": "As4",
-          "note": "",
-          "notee": ""
-        },
-        {
-          "notes": "A4",
-          "note": "",
-          "notee": ""
+          "id": 1
         }
       ]
     }
