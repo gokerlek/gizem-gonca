@@ -1,34 +1,12 @@
 {
   "questions": [
     {
-      "note": [
+      "title": "Soru Adı",
+      "notes": [
         {
-          "template": "note",
-          "note": ""
-        },
-        {
-          "template": "note",
-          "note": ""
-        },
-        {
-          "template": "note",
-          "note": ""
+          "notes": "A4"
         }
-      ],
-      "title": "soru2"
-    },
-    {
-      "note": [
-        {
-          "template": "note",
-          "note": "C5"
-        },
-        {
-          "template": "note",
-          "note": "E5"
-        }
-      ],
-      "title": "soru 1"
+      ]
     }
   ]
 }
