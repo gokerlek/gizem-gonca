@@ -2,20 +2,15 @@
 label: Question
 hide_body: true
 fields:
-- type: text
-  name: note
-  label: note
-- name: goker
+- name: questions
   type: field_group
   config: {}
   fields:
-  - name: note
-    type: blocks
-    label: note
-    template_types: []
+  - name: title
+    type: text
     config:
-      min: 
-      max: 
+      required: false
+    label: Title
   - name: notes
     type: list
     config:
@@ -23,31 +18,6 @@ fields:
       min: 
       max: 
     label: notes
-  label: goker
-- name: gizem
-  type: select
-  default: []
-  config:
-    required: false
-    options: []
-    source:
-      type: simple
-      section: 
-      file: 
-      path: 
-  label: gizem
-- name: oner
-  type: field_group_list
-  fields:
-  - name: note
-    type: text
-    config:
-      required: false
-    label: note
-  config:
-    min: 
-    max: 
-    labelField: 
-  label: oner
+  label: Questions
 pages:
 - src/cms/goker.json
