@@ -4,11 +4,6 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
-- type: heading
-  label: Gizem
-- type: document
-  path: src/cms/**/*
-  label: Deneme
 - type: directory
   path: src/cms
   label: Sounds
