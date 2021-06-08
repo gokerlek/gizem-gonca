@@ -4,6 +4,10 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: document
+  path: src/cms/**/*
+  label: Deneme
+  match: "**/*"
 - type: directory
   path: src/cms
   label: Sounds
