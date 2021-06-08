@@ -5,7 +5,7 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: cms/sounds
+  path: src/cms
   label: Sounds
   create: documents
   match: "**/*"
