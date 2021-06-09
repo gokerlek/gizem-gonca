@@ -21,6 +21,11 @@ fields:
       required: false
     label: Title
     default: Soru Adı
+  - name: color
+    type: text
+    config:
+      required: false
+    label: Color
   - name: notes
     type: field_group_list
     fields:
