@@ -1,4 +1,5 @@
 import { SoundButton } from "./sound-button";
+import { NoteButton } from "./note-button";
 import { Howl } from "howler";
 import sounds from "../cms/sounds.json";
 
@@ -6,7 +7,7 @@ const questions = sounds.questions;
 
 export const Container = () => {
      return (
-          <div className='min-w-screen h-screen  fixed  left-0 top-0 flex  inset-0 z-50 bg-white'>
+          <div className='min-w-screen h-screen  fixed  left-0 top-0 flex  inset-0 z-50 bg-white '>
                <div className='flex w-full justify-center items-center'>
                     {questions.map((question) => (
                          <div
@@ -20,6 +21,7 @@ export const Container = () => {
                                                        src: [
                                                             `sounds/${note.note}.m4a`,
                                                        ],
+                                                       volume: 0.5,
                                                   }).play()
                                              );
                                         }}>
@@ -30,7 +32,7 @@ export const Container = () => {
                                    className='flex justify-center items-center'
                                    key={question.id}>
                                    {question.notes.map((note) => (
-                                        <SoundButton
+                                        <NoteButton
                                              onClick={() =>
                                                   new Howl({
                                                        src: [
