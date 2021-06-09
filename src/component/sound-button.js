@@ -1,9 +1,10 @@
-export const SoundButton = ({ onClick, children }) => {
+export const SoundButton = ({ onClick, children, key }) => {
      return (
           <div className='p-1  mt-2 text-center space-x-1 space-y-2'>
                <button
                     className='bg-gray-900 px-5 py-5 text-sm shadow-sm font-medium tracking-wider  text-gray-100 rounded-lg focus:outline-none focus:ring-transparent'
-                    onClick={onClick}>
+                    onClick={onClick}
+                    key={key}>
                     {children}
                </button>
           </div>
