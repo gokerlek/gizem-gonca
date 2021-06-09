@@ -10,7 +10,7 @@ sections:
   create: documents
   match: "**/*"
   new_doc_ext: json
-upload_dir: ''
+upload_dir: sounds
 public_path: ''
 front_matter_path: ''
 use_front_matter_path: 
