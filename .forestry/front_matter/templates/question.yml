@@ -77,5 +77,4 @@ fields:
     labelField: 
   label: Questions
 pages:
-- src/cms/D4.json
 - src/cms/sounds.json
