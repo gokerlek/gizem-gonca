@@ -7,11 +7,11 @@ const questions = sounds.questions;
 
 export const Container = () => {
      return (
-          <div className='min-w-screen h-screen  fixed  left-0 top-0 flex  inset-0 z-50 bg-white '>
+          <div className='min-w-screen h-screen  fixed  left-0 top-0 flex inset-0 z-50 bg-white '>
                <div className='flex w-full justify-center items-center'>
                     {questions.map((question) => (
                          <div
-                              className=' shadow-2xl m-2 p-2 rounded-xl'
+                              className={`${question.color} shadow-2xl bg m-2 p-2 rounded-xl`}
                               key={question.id}>
                               <div key={question.id + 2}>
                                    <SoundButton
