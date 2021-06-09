@@ -56,16 +56,6 @@ fields:
           path: 
       label: Note
       hidden: false
-    - name: id
-      type: number
-      label: Id
-      description: ''
-      default: 0
-      required: true
-      config:
-        min: 
-        max: 
-        step: 
     config:
       min: 
       max: 
