@@ -10,11 +10,11 @@ sections:
   create: documents
   match: "**/*"
   new_doc_ext: json
-upload_dir: ''
+upload_dir: sounds
 public_path: ''
 front_matter_path: ''
 use_front_matter_path: 
-file_template: ":filename:sounds"
+file_template: ":sounds:/:filename:"
 build:
   install_dependencies_command: npm install
   preview_docker_image: forestryio/node:12
