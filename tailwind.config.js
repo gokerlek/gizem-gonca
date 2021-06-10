@@ -3,9 +3,16 @@ module.exports = {
      darkMode: false, // or 'media' or 'class'
      theme: {
           extend: {
+               fontFamily: {
+                    layout: ["Noto Sans", "Open Sans", "Arial"],
+               },
+               textColor: {
+                    kolay: "#457b9d",
+                    zor: "#c20114",
+               },
                backgroundColor: (theme) => ({
-                    kolay: "#db3a34",
-                    zor: "177e89",
+                    kolay: "#457b9d",
+                    zor: "#c20114",
                }),
           },
      },

@@ -11,10 +11,11 @@ export const Container = () => {
                <div className='flex w-full justify-center items-center'>
                     {questions.map((question) => (
                          <div
-                              className={`${question.color} shadow-2xl bg m-2 p-2 rounded-xl`}
+                              className={`bg-${question.color}  shadow-2xl bg m-2 p-2 rounded-xl`}
                               key={question.id}>
                               <div key={question.id + 2}>
                                    <SoundButton
+                                        color={question.color}
                                         onClick={() => {
                                              question.notes.map((note) =>
                                                   new Howl({
@@ -25,7 +26,7 @@ export const Container = () => {
                                                   }).play()
                                              );
                                         }}>
-                                        {question.title}
+                                        {question.title.toLocaleUpperCase()}
                                    </SoundButton>
                               </div>
                               <div
