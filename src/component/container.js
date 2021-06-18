@@ -9,6 +9,7 @@ const questions = sounds.questions;
 
 export const Container = () => {
      const clavinetRef = useRef();
+     const acRef = useRef();
      const { velocity, midiNote, midiKeyState } = useMidiIn();
 
      console.log(midiNote);
@@ -20,17 +21,24 @@ export const Container = () => {
           });
      };
 
+     const deneme = () => {
+          clavinetRef.current.play(80, acRef.current, {
+               gain: 5,
+          });
+     };
      const meloditekrari = () => {
-          clavinetRef.current.schedule(0, [
-               { time: 0, note: 71 },
-               { time: 1, note: 69 },
-               { time: 2, note: 72 },
+          clavinetRef.current.schedule(acRef.current, [
+               { time: 0.1, note: 55 },
+               { time: 0.2, note: 69 },
+               { time: 0.3, note: 72 },
+               { time: 0.4, note: 74 },
+               { time: 0.5, note: 78 },
+               { time: 0, note: 72 },
           ]);
      };
      useEffect(() => {
           const ac = new AudioContext();
-
-          console.log(Soundfont.nameToUrl("celesta", "FatBoy", "ogg"));
+          acRef.current = ac.currentTime;
 
           Soundfont.instrument(ac, "acoustic_grand_piano", {
                soundfont: "MusyngKite",
@@ -42,8 +50,6 @@ export const Container = () => {
                     });
                });
           });
-
-          console.log(Soundfont.nameToUrl("marimba", "Tabla", "ogg"));
      }, []);
 
      return (
@@ -54,6 +60,7 @@ export const Container = () => {
                               className={`bg-${question.color}  shadow-2xl bg m-2 p-2 rounded-xl`}
                               key={question.id}>
                               <div>
+                                   <SoundButton onClick={deneme}></SoundButton>
                                    <SoundButton
                                         onClick={meloditekrari}></SoundButton>
                                    <SoundButton
