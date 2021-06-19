@@ -2,15 +2,16 @@ import { SoundButton } from "./sound-button";
 import { NoteButton } from "./note-button";
 import sounds from "../cms/sounds.json";
 import { useMidiIn } from "./useData";
-import * as Soundfont from "soundfont-player";
-import { useRef, useEffect } from "react";
+import { useMidiData } from "./use-midi-data";
 
 const questions = sounds.questions;
 
 export const Container = () => {
-     const clavinetRef = useRef();
-     const acRef = useRef();
      const { velocity, midiNote, midiKeyState } = useMidiIn();
+     const { acRef, clavinetRef } = useMidiData(
+          "acoustic_grand_piano",
+          "FluidR3_GM"
+     );
 
      console.log(midiNote);
      const handleQuestionClick = (notes) => () => {
@@ -31,26 +32,11 @@ export const Container = () => {
                { time: 0.1, note: 55 },
                { time: 0.2, note: 69 },
                { time: 0.3, note: 72 },
-               { time: 0.4, note: 74 },
+               { time: 0.9, note: 74 },
                { time: 0.5, note: 78 },
                { time: 0, note: 72 },
           ]);
      };
-     useEffect(() => {
-          const ac = new AudioContext();
-          acRef.current = ac.currentTime;
-
-          Soundfont.instrument(ac, "acoustic_grand_piano", {
-               soundfont: "MusyngKite",
-          }).then(function (clavinet) {
-               clavinetRef.current = clavinet;
-               window.navigator.requestMIDIAccess().then(function (midiAccess) {
-                    midiAccess.inputs.forEach(function (midiInput) {
-                         clavinet.listenToMidi(midiInput);
-                    });
-               });
-          });
-     }, []);
 
      return (
           <div className='min-w-screen h-screen  fixed  left-0 top-0 flex inset-0 z-50 bg-white '>
