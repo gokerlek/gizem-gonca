@@ -15,31 +15,29 @@ const App = () => {
           <>
                <Router>
                     <Layout>
-                         <Container>
-                              <Switch>
-                                   <Route path='/' exact>
-                                        <Home />
-                                   </Route>
-                                   <Route path='/exam'>
-                                        <Exam />
-                                   </Route>
-                                   <Route path='/rhythm'>
-                                        <Rhythm />
-                                   </Route>
-                                   <Route path='/melody'>
-                                        <Melody />
-                                   </Route>
-                                   <Route path='/four'>
-                                        <Four />
-                                   </Route>
-                                   <Route path='/three'>
-                                        <Three />
-                                   </Route>
-                                   <Route path='/two'>
-                                        <Two />
-                                   </Route>
-                              </Switch>
-                         </Container>
+                         <Switch>
+                              <Route path='/' exact>
+                                   <Home />
+                              </Route>
+                              <Route path='/exam'>
+                                   <Exam />
+                              </Route>
+                              <Route path='/rhythm'>
+                                   <Rhythm />
+                              </Route>
+                              <Route path='/melody'>
+                                   <Melody />
+                              </Route>
+                              <Route path='/four'>
+                                   <Four />
+                              </Route>
+                              <Route path='/three'>
+                                   <Three />
+                              </Route>
+                              <Route path='/two'>
+                                   <Two />
+                              </Route>
+                         </Switch>
                     </Layout>
                </Router>
           </>

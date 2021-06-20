@@ -4,9 +4,10 @@ import { ScrollToTop } from "./scroll-to-top";
 export const Layout = ({ children }) => {
      return (
           <>
-               <div className='layout grid grid-cols-2   bg-white'>
-                    <Sidebar />
-                    <div></div>
+               <div className='layout grid grid-cols-layout   bg-white'>
+                    <div>
+                         <Sidebar />
+                    </div>
                     <div>{children}</div>
                     <ScrollToTop />
                </div>

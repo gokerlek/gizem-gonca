@@ -3,7 +3,7 @@ import { Logo } from "./logo";
 
 export const Sidebar = () => {
      return (
-          <div className='sidebar w-menu h-menu shadow-menu flex flex-col items-center fixed '>
+          <div className='sidebar w-menu h-menu shadow-menu flex flex-col items-center fixed bg-white'>
                <Logo />
                <Menu />
           </div>

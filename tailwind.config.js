@@ -24,6 +24,9 @@ module.exports = {
                     kolay: "#009FB7",
                     zor: "#DA627D",
                }),
+               gridTemplateColumns: {
+                    layout: "80px  1fr",
+               },
           },
      },
      variants: {
