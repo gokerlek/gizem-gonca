@@ -6,6 +6,7 @@ export const Layout = ({ children }) => {
           <>
                <div className='layout grid grid-cols-2   bg-white'>
                     <Sidebar />
+                    <div></div>
                     <div>{children}</div>
                     <ScrollToTop />
                </div>

@@ -2,7 +2,7 @@ export const Logo = () => {
      return (
           <div className='h-logo  flex '>
                <div className='bg-kolay h-7 my-auto p-7  tracking-wider rounded-lg relative'>
-                    <div className='overflow-visible absolute top-2  -right-2'>
+                    <div className=' absolute top-2  -right-2'>
                          <svg
                               width='57'
                               height='39'
