@@ -20,13 +20,16 @@
     },
     {
       "id": 1,
-      "title": "ikili 12",
+      "title": "üçlü",
       "notes": [
+        {
+          "note": "E4"
+        },
         {
           "note": "C4"
         },
         {
-          "note": "Cs4"
+          "note": "D4"
         }
       ],
       "color": "zor"
