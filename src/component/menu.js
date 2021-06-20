@@ -4,7 +4,7 @@ import { Container } from "./container";
 export const Menu = () => {
      return (
           <>
-               <div className='menu  flex flex-col justify-center'>
+               <div className='menu my-auto flex flex-col justify-center'>
                     <Link
                          className='bg-kolay w-max p-7 m-2 tracking-wider rounded-lg'
                          to='/'></Link>
