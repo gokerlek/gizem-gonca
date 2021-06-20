@@ -12,14 +12,15 @@ module.exports = {
           width: {
                menu: "80px",
           },
+          textColor: {
+               kolay: "#009FB7",
+               zor: "#DA627D",
+          },
           extend: {
                fontFamily: {
                     layout: ["Noto Sans", "Open Sans", "Arial"],
                },
-               textColor: {
-                    kolay: "#009FB7",
-                    zor: "#DA627D",
-               },
+
                backgroundColor: (theme) => ({
                     kolay: "#009FB7",
                     zor: "#DA627D",
