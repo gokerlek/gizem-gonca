@@ -7,3 +7,13 @@ fields:
   config:
     required: false
   label: Note
+- name: id
+  type: number
+  label: ID
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
