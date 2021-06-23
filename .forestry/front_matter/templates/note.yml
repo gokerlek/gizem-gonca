@@ -9,7 +9,7 @@ fields:
   label: Note
 - name: id
   type: number
-  label: ID
+  label: Id
   description: ''
   default: 0
   required: true
