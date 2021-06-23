@@ -85,7 +85,7 @@
           {
                "id": 2,
                "title": "üçlü 11528",
-               "color": "zoray",
+               "color": "zor",
                "notes": [
                     {
                          "note": "E5"
@@ -112,7 +112,7 @@
                          "note": "D4"
                     }
                ],
-               "color": "zoray"
+               "color": "zor"
           }
      ]
 }
