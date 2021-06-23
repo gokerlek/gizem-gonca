@@ -8,7 +8,7 @@ import classNames from "classnames";
 
 const questions = sounds.questions;
 const questionColor = (color) =>
-     classNames(`bg-${color}`, "shadow-2xl bg m-2 p-2 rounded-xl");
+     classNames(color, "shadow-2xl bg m-2 p-2 rounded-xl");
 
 export const Home = () => {
      const { midiNote } = useMidiIn();
@@ -28,7 +28,7 @@ export const Home = () => {
           <Container>
                {questions.map((question) => (
                     <div
-                         className={`bg-zor shadow-2xl bg m-2 p-2 rounded-xl`}
+                         className={questionColor(question.color)}
                          key={question.id}>
                          <div>
                               <SoundButton
