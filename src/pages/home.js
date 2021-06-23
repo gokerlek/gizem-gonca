@@ -4,17 +4,18 @@ import { Container } from "../component/container";
 import { SoundButton } from "../component/sound-button";
 import { NoteButton } from "../component/note-button";
 import sounds from "../cms/sounds.json";
+import classNames from "classnames";
 
 const questions = sounds.questions;
+const questionColor = (color) =>
+     classNames(`bg-${color}`, "shadow-2xl bg m-2 p-2 rounded-xl");
 
 export const Home = () => {
      const { midiNote } = useMidiIn();
-     console.log(midiNote);
      const { acRef, clavinetRef } = useMidiData(
           "acoustic_grand_piano",
           "FluidR3_GM"
      );
-     console.log(midiNote);
      const handleQuestionClick = (notes) => () => {
           notes.map((note) => {
                if (clavinetRef.current?.play) {
@@ -27,7 +28,7 @@ export const Home = () => {
           <Container>
                {questions.map((question) => (
                     <div
-                         className={`bg-${question.color}  shadow-2xl bg m-2 p-2 rounded-xl`}
+                         className={questionColor(question.color)}
                          key={question.id}>
                          <div>
                               <SoundButton
