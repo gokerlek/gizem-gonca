@@ -22,8 +22,9 @@ module.exports = {
                },
 
                backgroundColor: (theme) => ({
-                    kolay: "#009FB7",
                     zoray: "#DA627D",
+
+                    kolay: "#009FB7",
                }),
                gridTemplateColumns: {
                     layout: "80px  1fr",

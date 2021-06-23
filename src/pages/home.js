@@ -28,7 +28,7 @@ export const Home = () => {
           <Container>
                {questions.map((question) => (
                     <div
-                         className={questionColor(question.color)}
+                         className={`shadow-2xl bg m-2 p-2 rounded-xl bg-${question.color}`}
                          key={question.id}>
                          <div>
                               <SoundButton
