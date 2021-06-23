@@ -1,5 +1,8 @@
 module.exports = {
-     purge: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
+     purge: {
+          content: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
+          safelist: ["bg-zor", "bg-kolay", "text-kolay", "text-zor"],
+     },
      darkMode: false, // or 'media' or 'class'
      theme: {
           boxShadow: {
@@ -22,8 +25,8 @@ module.exports = {
                },
 
                backgroundColor: (theme) => ({
-                    kolay: "#009FB7",
                     zor: "#DA627D",
+                    kolay: "#009FB7",
                }),
                gridTemplateColumns: {
                     layout: "80px  1fr",
