@@ -1,4 +1,3 @@
-import { useMidiIn } from "../component/useData";
 import { useMidiData } from "../component/use-midi-data";
 import { Container } from "../component/container";
 import { SoundButton } from "../component/sound-button";
@@ -8,14 +7,10 @@ import classNames from "classnames";
 
 const questions = sounds.questions;
 const questionColor = (color) =>
-     classNames(color, "shadow-2xl bg m-2 p-2 rounded-xl");
+     classNames(`bg-${color}`, "shadow-2xl bg m-2 p-2 rounded-xl");
 
 export const Home = () => {
-     const { midiNote } = useMidiIn();
-     const { acRef, clavinetRef } = useMidiData(
-          "acoustic_grand_piano",
-          "FluidR3_GM"
-     );
+     const { clavinetRef } = useMidiData("acoustic_grand_piano", "FluidR3_GM");
      const handleQuestionClick = (notes) => () => {
           notes.map((note) => {
                if (clavinetRef.current?.play) {
@@ -28,7 +23,7 @@ export const Home = () => {
           <Container>
                {questions.map((question) => (
                     <div
-                         className={`shadow-2xl bg m-2 p-2 rounded-xl bg-${question.color}`}
+                         className={questionColor(question.color)}
                          key={question.id}>
                          <div>
                               <SoundButton
@@ -42,7 +37,7 @@ export const Home = () => {
                          <div className='flex justify-center items-center'>
                               {question.notes.map((note) => (
                                    <NoteButton
-                                        key={note.note}
+                                        key={note.id}
                                         onClick={handleQuestionClick([note])}
                                    />
                               ))}
