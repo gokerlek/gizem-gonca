@@ -8,7 +8,7 @@ import classNames from "classnames";
 
 const questions = sounds.questions;
 const questionColor = (color) =>
-     classNames(color, "shadow-2xl bg m-2 p-2 rounded-xl");
+     classNames(`bg-${color}`, "shadow-2xl bg m-2 p-2 rounded-xl");
 
 export const Home = () => {
      const { midiNote } = useMidiIn();
