@@ -1,8 +1,8 @@
-import { useRef, useState, useEffect } from "react";
+import { useRef, useEffect } from "react";
 import * as Soundfont from "soundfont-player";
 
 export const useMidiData = (goker, soundfonts) => {
-     const [midiData, setMidiData] = useState([]);
+     /*const [midiData, setMidiData] = useState([]);*/
 
      const clavinetRef = useRef();
      const acRef = useRef();

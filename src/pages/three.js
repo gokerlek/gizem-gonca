@@ -38,7 +38,7 @@ export const Three = () => {
                          <div className='flex justify-center items-center'>
                               {question.notes.map((note) => (
                                    <NoteButton
-                                        key={note.note}
+                                        key={note.id}
                                         onClick={handleQuestionClick([note])}
                                    />
                               ))}

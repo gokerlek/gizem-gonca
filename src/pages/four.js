@@ -11,7 +11,6 @@ export const Four = () => {
      const { midiNote } = useMidiIn();
      console.log(midiNote);
      const { clavinetRef } = useMidiData("acoustic_grand_piano", "FluidR3_GM");
-     console.log(midiNote);
      const handleQuestionClick = (notes) => () => {
           notes.map((note) => {
                if (clavinetRef.current?.play) {
@@ -38,7 +37,7 @@ export const Four = () => {
                          <div className='flex justify-center items-center'>
                               {question.notes.map((note) => (
                                    <NoteButton
-                                        key={note.note}
+                                        key={note.id}
                                         onClick={handleQuestionClick([note])}
                                    />
                               ))}

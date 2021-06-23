@@ -1,4 +1,3 @@
-import { Container } from "./component/container";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { Home } from "./pages/home";
 import { Two } from "./pages/two";
