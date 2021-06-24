@@ -1,8 +1,8 @@
 ---
-label: Blocks
+label: Question
 hide_body: true
 fields:
-- name: questions
+- name: blocks
   type: field_group_list
   fields:
   - name: title
@@ -60,4 +60,4 @@ fields:
     min: 
     max: 
     labelField: title
-  label: Questions
+  label: Blocks
