@@ -15,6 +15,7 @@ export const useMidiIn = () => {
           };
 
           const onMidiIn = (ev) => {
+               console.log(ev);
                const arr = [];
                for (var i = 0; i < ev.data.length; i++) {
                     arr.push(

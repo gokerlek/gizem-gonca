@@ -9,6 +9,9 @@ const questions = sounds.questions;
 const questionColor = (color) =>
      classNames(`bg-${color}`, "shadow-2xl bg m-2 p-2 rounded-xl");
 
+const context = require.context("../cms", true, /\.json$/, "lazy");
+console.log(context.keys());
+
 export const Home = () => {
      const { clavinetRef } = useMidiData("acoustic_grand_piano", "FluidR3_GM");
      const handleQuestionClick = (notes) => () => {
