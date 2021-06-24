@@ -23,5 +23,5 @@ fields:
   config:
     min: 
     max: 
-    labelField: 
+    labelField: label
   label: Menu Item
