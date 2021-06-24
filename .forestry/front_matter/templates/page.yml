@@ -25,3 +25,5 @@ fields:
     min: 
     max: 
   label: Blocks
+pages:
+- src/cms/pages/two.json
