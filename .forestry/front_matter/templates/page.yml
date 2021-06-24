@@ -17,11 +17,11 @@ fields:
     schema:
       format: markdown
   label: Description
-- name: goker
+- name: blocks
   type: blocks
-  label: Goker
   template_types:
   - question
   config:
     min: 
     max: 
+  label: Blocks
