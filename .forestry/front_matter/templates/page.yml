@@ -25,3 +25,5 @@ fields:
   config:
     min: 
     max: 
+pages:
+- src/cms/pages/test.json
