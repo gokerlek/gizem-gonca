@@ -27,3 +27,4 @@ fields:
     max: 
 pages:
 - src/cms/pages/test.json
+- src/cms/pages/two.json
