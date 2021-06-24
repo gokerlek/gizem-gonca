@@ -1,1 +1,12 @@
-{}
+{
+  "Menu": [
+
+  ],
+  "menu_item": [
+    {
+      "label": "home",
+      "icon": "",
+      "url": "/"
+    }
+  ]
+}
