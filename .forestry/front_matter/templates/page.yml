@@ -17,9 +17,9 @@ fields:
     schema:
       format: markdown
   label: Description
-- name: questions
+- name: goker
   type: blocks
-  label: Questions
+  label: Goker
   template_types:
   - question
   config:
