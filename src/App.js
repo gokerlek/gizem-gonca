@@ -7,6 +7,7 @@ import { Melody } from "./pages/melody";
 import { Rhythm } from "./pages/rhythm";
 import { Exam } from "./pages/exam";
 import { Layout } from "./component/layout";
+import { Page } from "./pages/page";
 import "./App.css";
 
 const App = () => {
@@ -35,6 +36,9 @@ const App = () => {
                               </Route>
                               <Route path='/two'>
                                    <Two />
+                              </Route>
+                              <Route path='/page/:slug'>
+                                   <Page />
                               </Route>
                          </Switch>
                     </Layout>
