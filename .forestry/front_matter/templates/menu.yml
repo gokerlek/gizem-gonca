@@ -25,3 +25,5 @@ fields:
     max: 
     labelField: label
   label: Menu Item
+pages:
+- src/cms/menu.json
