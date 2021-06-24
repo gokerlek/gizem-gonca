@@ -19,24 +19,24 @@
       "url": "/page/three"
     },
     {
-      "label": "",
-      "icon": "",
-      "url": ""
+      "label": "four",
+      "icon": "/v1624561425/n4_lhfac6.svg",
+      "url": "/page/four"
     },
     {
-      "label": "",
-      "icon": "",
-      "url": ""
+      "label": "melody",
+      "icon": "/v1624561468/nr_gww85v.svg",
+      "url": "/page/melody"
     },
     {
-      "label": "",
-      "icon": "",
-      "url": ""
+      "label": "rhythm",
+      "icon": "/v1624561548/nd_xgwxzk.svg",
+      "url": "/page/rhythm"
     },
     {
-      "label": "",
-      "icon": "",
-      "url": ""
+      "label": "exam",
+      "icon": "/v1624561571/Frame_23_lut12n.svg",
+      "url": "/page/exam"
     }
   ]
 }
