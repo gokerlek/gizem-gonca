@@ -5,8 +5,38 @@
   "menuItems": [
     {
       "label": "home",
-      "icon": "",
+      "icon": "/v1624565708/n1_bb1cjg.svg",
       "url": "/"
+    },
+    {
+      "label": "two",
+      "icon": "/v1624561339/n2_k05h8f.svg",
+      "url": "/page/two"
+    },
+    {
+      "label": "three",
+      "icon": "/v1624561383/n3_sa6och.svg",
+      "url": "/page/three"
+    },
+    {
+      "label": "",
+      "icon": "",
+      "url": ""
+    },
+    {
+      "label": "",
+      "icon": "",
+      "url": ""
+    },
+    {
+      "label": "",
+      "icon": "",
+      "url": ""
+    },
+    {
+      "label": "",
+      "icon": "",
+      "url": ""
     }
   ]
 }
