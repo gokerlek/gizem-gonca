@@ -9,13 +9,12 @@ sections:
   label: Pages
   create: documents
   match: "**/*"
-  new_doc_ext: ".json"
+  new_doc_ext: json
   templates:
   - page
 - type: document
   path: src/cms/menu.json
   label: Menu
-  match: "**/*"
 upload_dir: ''
 public_path: ''
 front_matter_path: ''
