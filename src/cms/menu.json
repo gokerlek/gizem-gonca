@@ -4,6 +4,11 @@
   ],
   "menu_item": [
     {
+      "label": "two",
+      "icon": "",
+      "url": "/page/two"
+    },
+    {
       "label": "home",
       "icon": "",
       "url": "/"
