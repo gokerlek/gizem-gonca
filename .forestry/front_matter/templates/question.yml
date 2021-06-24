@@ -54,7 +54,7 @@ fields:
     config:
       min: 
       max: 
-      labelField: 
+      labelField: note
     label: Notes
   config:
     min: 
