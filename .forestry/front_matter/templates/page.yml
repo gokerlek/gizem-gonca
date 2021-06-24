@@ -26,6 +26,7 @@ fields:
     max: 
   label: Blocks
 pages:
+- src/cms/pages/exam.json
 - src/cms/pages/four.json
 - src/cms/pages/melody.json
 - src/cms/pages/rhythm.json
