@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import menu from "../cms/menu.json";
 
 export const Menu = () => {
      return (
