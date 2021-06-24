@@ -5,16 +5,6 @@ fields:
 - name: questions
   type: field_group_list
   fields:
-  - name: id
-    type: number
-    label: Id
-    description: ''
-    default: 0
-    required: true
-    config:
-      min: 
-      max: 
-      step: 
   - name: title
     type: text
     config:
@@ -61,16 +51,6 @@ fields:
           path: 
       label: Note
       hidden: false
-    - name: id
-      type: number
-      description: ''
-      default: 0
-      required: true
-      config:
-        min: 
-        max: 
-        step: 
-      label: Id
     config:
       min: 
       max: 
@@ -79,7 +59,7 @@ fields:
   config:
     min: 
     max: 
-    labelField: 
+    labelField: title
   label: Questions
 pages:
 - src/cms/sounds.json
