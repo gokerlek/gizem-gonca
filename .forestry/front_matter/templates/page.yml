@@ -26,6 +26,4 @@ fields:
     min: 
     max: 
 pages:
-- src/cms/pages/four.json
-- src/cms/pages/test.json
 - src/cms/pages/three.json
