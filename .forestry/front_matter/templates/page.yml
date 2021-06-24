@@ -26,4 +26,5 @@ fields:
     max: 
   label: Blocks
 pages:
+- src/cms/pages/three.json
 - src/cms/pages/two.json
