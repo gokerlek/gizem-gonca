@@ -1,17 +1,1 @@
-{
-  "Menu": [
-
-  ],
-  "menu_item": [
-    {
-      "label": "home",
-      "icon": "",
-      "url": "/"
-    },
-    {
-      "label": "two",
-      "icon": "",
-      "url": "/page/two"
-    }
-  ]
-}
+[]
