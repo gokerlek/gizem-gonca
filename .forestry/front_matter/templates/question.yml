@@ -61,5 +61,3 @@ fields:
     max: 
     labelField: title
   label: Questions
-pages:
-- src/cms/sounds.json

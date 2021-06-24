@@ -5,11 +5,17 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: src/cms
-  label: Sounds
+  path: src/cms/pages
+  label: Pages
   create: documents
   match: "**/*"
-  new_doc_ext: json
+  new_doc_ext: ".json"
+  templates:
+  - page
+- type: document
+  path: src/cms/menu.json
+  label: Menu
+  match: "**/*"
 upload_dir: ''
 public_path: ''
 front_matter_path: ''
