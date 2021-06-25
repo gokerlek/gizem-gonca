@@ -7,7 +7,7 @@
       "questions": [
         {
           "title": "Soru Adı",
-          "color": "",
+          "color": "zor",
           "notes": [
             {
               "note": "",
