@@ -15,8 +15,8 @@ sections:
 - type: document
   path: src/cms/menu.json
   label: Menu
-upload_dir: ''
-public_path: ''
+upload_dir: public/images
+public_path: "/images"
 front_matter_path: ''
 use_front_matter_path: 
 file_template: ":filename:"
