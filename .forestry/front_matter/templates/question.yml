@@ -51,11 +51,6 @@ fields:
           path: 
       label: Note
       hidden: false
-    - name: flat
-      type: file
-      config:
-        maxSize: 64
-      label: flat
     config:
       min: 
       max: 
