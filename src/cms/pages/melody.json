@@ -6,16 +6,6 @@
       "template": "question",
       "questions": [
         {
-          "title": "Soru Adı",
-          "color": "zor",
-          "notes": [
-            {
-              "note": "",
-              "flat": "/images/flat.json"
-            }
-          ]
-        },
-        {
           "title": "153548",
           "notes": [
             {
