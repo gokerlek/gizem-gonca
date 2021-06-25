@@ -26,6 +26,12 @@ export const Melody = () => {
           ]);
      };
 
+     const deneme = () => {
+          clavinetRef.current.play(80, acRef.current, {
+               gain: 5,
+          });
+     };
+
      return (
           <Container>
                {questions.map((question) => (
@@ -33,6 +39,7 @@ export const Melody = () => {
                          className={`bg-${question.color}  shadow-2xl bg m-2 p-2 rounded-xl`}
                          key={question.id}>
                          <SoundButton onClick={meloditekrari}></SoundButton>
+                         <SoundButton onClick={deneme}></SoundButton>
                     </div>
                ))}
           </Container>

@@ -9,7 +9,7 @@ export const Menu = () => {
                     {menuData.map((menuItem) => (
                          <div className='bg-kolay h-7 m-2 p-7  tracking-wider rounded-lg relative'>
                               <Link to={menuItem.url}>
-                                   <div className=' absolute top-1 right-2'>
+                                   <div className=' absolute top-1 right-1'>
                                         <img src={menuItem.icon} />
                                    </div>
                               </Link>
