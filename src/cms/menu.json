@@ -5,37 +5,37 @@
   "menuItems": [
     {
       "label": "home",
-      "icon": "/v1624565708/n1_bb1cjg.svg",
+      "icon": "/v1624603100/one_vk6pcs.png",
       "url": "/"
     },
     {
       "label": "two",
-      "icon": "/v1624561339/n2_k05h8f.svg",
+      "icon": "/v1624603100/two_mniie8.png",
       "url": "/page/two"
     },
     {
       "label": "three",
-      "icon": "/v1624561383/n3_sa6och.svg",
+      "icon": "/v1624603100/two-2_hdf796.png",
       "url": "/page/three"
     },
     {
       "label": "four",
-      "icon": "/v1624561425/n4_lhfac6.svg",
+      "icon": "/v1624603100/two-1_socoop.png",
       "url": "/page/four"
     },
     {
       "label": "melody",
-      "icon": "/v1624561468/nr_gww85v.svg",
+      "icon": "/v1624603100/melody_tsv0wn.png",
       "url": "/page/melody"
     },
     {
       "label": "rhythm",
-      "icon": "/v1624561548/nd_xgwxzk.svg",
+      "icon": "/v1624603100/rhythm_mezzat.png",
       "url": "/page/rhythm"
     },
     {
       "label": "exam",
-      "icon": "/v1624561571/Frame_23_lut12n.svg",
+      "icon": "/v1624603100/rhythm-1_rmu0bc.png",
       "url": "/page/exam"
     }
   ]
