@@ -1,4 +1,9 @@
 ---
 label: demene
 hide_body: true
-fields: []
+fields:
+- name: demene
+  type: file
+  config:
+    maxSize: 64
+  label: demene
