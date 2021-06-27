@@ -16,11 +16,6 @@ fields:
     config:
       required: false
     label: Color
-  - name: melodies
-    type: text
-    config:
-      required: false
-    label: melodies
   - name: notes
     type: field_group_list
     fields:
