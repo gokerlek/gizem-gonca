@@ -66,6 +66,15 @@ fields:
       max: 
       labelField: note
     label: Notes
+  - name: melodynote
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: melodynote
   config:
     min: 
     max: 
