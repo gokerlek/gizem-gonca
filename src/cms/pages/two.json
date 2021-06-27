@@ -6,14 +6,34 @@
       "template": "question",
       "questions": [
         {
+          "title": "1254",
+          "color": "kolay",
+          "notes": [
+            {
+              "note": "A3",
+              "time": "0",
+              "duration": ""
+            },
+            {
+              "note": "D4",
+              "time": "0",
+              "duration": ""
+            }
+          ]
+        },
+        {
           "title": "1255",
           "color": "kolay",
           "notes": [
             {
-              "note": "B3"
+              "note": "B3",
+              "time": "",
+              "duration": ""
             },
             {
-              "note": "B4"
+              "note": "B4",
+              "time": "",
+              "duration": ""
             }
           ]
         },
@@ -22,10 +42,14 @@
           "color": "zor",
           "notes": [
             {
-              "note": "A3"
+              "note": "A3",
+              "time": "",
+              "duration": ""
             },
             {
-              "note": "A4"
+              "note": "A4",
+              "time": "",
+              "duration": ""
             }
           ]
         }
