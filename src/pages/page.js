@@ -19,12 +19,26 @@ export const Page = () => {
      const { slug } = useParams();
      const [pageData, setPageData] = useState();
      console.log(slug);
-     const { clavinetRef } = useMidiData("acoustic_grand_piano", "FluidR3_GM");
+     const { acRef, clavinetRef } = useMidiData(
+          "acoustic_grand_piano",
+          "FluidR3_GM"
+     );
      const handleQuestionClick = (notes) => () => {
           notes.map((note) => {
                if (clavinetRef.current?.play) {
                     clavinetRef.current?.play(note.note);
                }
+          });
+     };
+     const meloditekrari = (notes) => () => {
+          notes.map((note) => {
+               clavinetRef.current.schedule(acRef.current, [
+                    {
+                         time: note.time,
+                         note: note.midi,
+                         duration: note.duration,
+                    },
+               ]);
           });
      };
      useEffect(() => {
@@ -78,9 +92,7 @@ export const Page = () => {
                               <div>
                                    <SoundButton
                                         color={question.color}
-                                        onClick={handleQuestionClick(
-                                             question.notes
-                                        )}>
+                                        onClick={meloditekrari(question.notes)}>
                                         {question.title.toLocaleUpperCase()}
                                    </SoundButton>
                               </div>
