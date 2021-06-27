@@ -43,29 +43,50 @@ export const Page = () => {
 
      return (
           <Container>
-               {pageData?.blocks[0].questions?.map((question) => (
-                    <div
-                         className={questionColor(question.color)}
-                         key={question.id}>
-                         <div>
-                              <SoundButton
-                                   color={question.color}
-                                   onClick={handleQuestionClick(
-                                        question.notes
-                                   )}>
-                                   {question.title.toLocaleUpperCase()}
-                              </SoundButton>
+               {pageData?.blocks[0].questions?.map((question) =>
+                    pageData?.description == "two" ||
+                    pageData?.description == "three" ||
+                    pageData?.description == "four" ? (
+                         <div
+                              className={questionColor(question.color)}
+                              key={question.id}>
+                              <div>
+                                   <SoundButton
+                                        color={question.color}
+                                        onClick={handleQuestionClick(
+                                             question.notes
+                                        )}>
+                                        {question.title.toLocaleUpperCase()}
+                                   </SoundButton>
+                              </div>
+
+                              <div className='flex justify-center items-center'>
+                                   {question.notes.map((note) => (
+                                        <NoteButton
+                                             key={note.id}
+                                             onClick={handleQuestionClick([
+                                                  note,
+                                             ])}
+                                        />
+                                   ))}
+                              </div>
                          </div>
-                         <div className='flex justify-center items-center'>
-                              {question.notes.map((note) => (
-                                   <NoteButton
-                                        key={note.id}
-                                        onClick={handleQuestionClick([note])}
-                                   />
-                              ))}
+                    ) : (
+                         <div
+                              className={questionColor(question.color)}
+                              key={question.id}>
+                              <div>
+                                   <SoundButton
+                                        color={question.color}
+                                        onClick={handleQuestionClick(
+                                             question.notes
+                                        )}>
+                                        {question.title.toLocaleUpperCase()}
+                                   </SoundButton>
+                              </div>
                          </div>
-                    </div>
-               ))}
+                    )
+               )}
           </Container>
      );
 };
