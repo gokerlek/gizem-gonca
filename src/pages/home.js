@@ -4,6 +4,7 @@ import { SoundButton } from "../component/sound-button";
 import flat from "../flat.json";
 
 const melodies = flat.notes;
+
 console.log(melodies.map((note) => note.midi));
 
 export const Home = () => {
