@@ -92,7 +92,9 @@ export const Page = () => {
                               <div>
                                    <SoundButton
                                         color={question.color}
-                                        onClick={meloditekrari(question.notes)}>
+                                        onClick={handleQuestionClick(
+                                             question.notes
+                                        )}>
                                         {question.title.toLocaleUpperCase()}
                                    </SoundButton>
                               </div>
