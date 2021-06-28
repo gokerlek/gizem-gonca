@@ -19,7 +19,7 @@ export const useMidiData = (instruments, soundfonts) => {
                     });
                });
           });
-     }, [instruments]);
+     }, [instruments, soundfonts]);
 
      return { acRef, clavinetRef };
 };
