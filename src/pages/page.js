@@ -19,10 +19,11 @@ export const Page = () => {
      const { slug } = useParams();
      const [pageData, setPageData] = useState();
      console.log(slug);
-     const { acRef, clavinetRef } = useMidiData(
-          "acoustic_grand_piano",
-          "FluidR3_GM"
-     );
+
+     const instrument =
+          pageData?.title === "rhythm" ? "woodblock" : "electric_grand_piano";
+     console.log(instrument);
+     const { acRef, clavinetRef } = useMidiData(instrument, "FluidR3_GM");
      const handleQuestionClick = (notes) => () => {
           notes.map((note) => {
                if (clavinetRef.current?.play) {
@@ -41,6 +42,12 @@ export const Page = () => {
                ]);
           });
      };
+
+     const stopMusic = () => {
+          if (clavinetRef.current?.stop) {
+               clavinetRef.current?.stop();
+          }
+     };
      useEffect(() => {
           const key = context
                .keys()
@@ -53,7 +60,7 @@ export const Page = () => {
                     });
           }
      }, [slug, setPageData]);
-     console.log(pageData);
+     console.log(pageData?.title);
 
      return (
           <Container>
@@ -83,6 +90,23 @@ export const Page = () => {
                                              ])}
                                         />
                                    ))}
+                              </div>
+                         </div>
+                    ) : pageData?.description == "melody" ? (
+                         <div
+                              className={questionColor(question.color)}
+                              key={question.id}>
+                              <div>
+                                   <SoundButton
+                                        color={question.color}
+                                        onClick={meloditekrari(
+                                             JSON.parse(question.melodynote)
+                                        )}>
+                                        {question.title.toLocaleUpperCase()}
+                                   </SoundButton>
+                                   <SoundButton onClick={stopMusic}>
+                                        Stop
+                                   </SoundButton>
                               </div>
                          </div>
                     ) : (
