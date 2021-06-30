@@ -9,7 +9,7 @@ module.exports = {
                menu: " 0px 0px 96px rgba(0, 0, 0, 0.07), 0px 0px 12.0207px rgba(0, 0, 0, 0.035);",
           },
           height: {
-               logo: "160px",
+               logo: "140px",
                menu: "100vh",
           },
           width: {
@@ -34,7 +34,9 @@ module.exports = {
           },
      },
      variants: {
-          extend: {},
+          extend: {
+               backgroundColor: ["active"],
+          },
      },
      plugins: [],
 };
