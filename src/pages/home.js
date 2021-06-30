@@ -49,7 +49,7 @@ export const Home = () => {
                               }
                          }}
                          keyboardShortcuts={keyboardShortcuts}
-                         width={1800}
+                         width={widthData * 0.8}
                     />
                </Container>
           </>
