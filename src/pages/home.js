@@ -4,7 +4,6 @@ import { Piano, KeyboardShortcuts, MidiNumbers } from "react-piano";
 import "react-piano/dist/styles.css";
 import "../style.css";
 import { useState, useEffect } from "react";
-import { Dimension } from "react";
 
 export const Home = () => {
      const { acRef, clavinetRef } = useMidiData(
@@ -19,8 +18,8 @@ export const Home = () => {
           setWidthData(window?.innerWidth.valueOf());
      }, [setWidthData]);
 
-     const firstNote = MidiNumbers.fromNote("c3");
-     const lastNote = MidiNumbers.fromNote("f5");
+     const firstNote = MidiNumbers.fromNote("a3");
+     const lastNote = MidiNumbers.fromNote("e5");
      const keyboardShortcuts = KeyboardShortcuts.create({
           firstNote: firstNote,
           lastNote: lastNote,
@@ -28,30 +27,28 @@ export const Home = () => {
      });
 
      return (
-          <>
-               <Container>
-                    <Piano
-                         noteRange={{ first: firstNote, last: lastNote }}
-                         playNote={(midiNumber) => {
-                              if (clavinetRef.current?.play) {
-                                   clavinetRef.current?.play(
-                                        midiNumber,
-                                        acRef.current
-                                   );
-                              }
-                         }}
-                         stopNote={(midiNumber) => {
-                              if (clavinetRef.current?.stop) {
-                                   clavinetRef.current?.stop(
-                                        midiNumber,
-                                        acRef.current
-                                   );
-                              }
-                         }}
-                         keyboardShortcuts={keyboardShortcuts}
-                         width={widthData * 0.8}
-                    />
-               </Container>
-          </>
+          <Container>
+               <div className='min-h-screen min-w-full flex items-center'>
+                    <div className='flex min-w-full min-h-full items-center'>
+                         <Piano
+                              noteRange={{ first: firstNote, last: lastNote }}
+                              playNote={(midiNumber) => {
+                                   if (clavinetRef.current?.play) {
+                                        clavinetRef.current?.play(
+                                             midiNumber,
+                                             acRef.current
+                                        );
+                                   }
+                              }}
+                              stopNote={() => {
+                                   if (clavinetRef.current?.stop) {
+                                        clavinetRef.current?.stop();
+                                   }
+                              }}
+                              keyboardShortcuts={keyboardShortcuts}
+                         />
+                    </div>
+               </div>
+          </Container>
      );
 };
