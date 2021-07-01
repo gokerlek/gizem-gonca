@@ -1,27 +1,12 @@
-[data-testid="container"] {
-     display: flex;
-     justify-content: center;
-}
-.ReactPiano__Keyboard {
-     position: relative;
-     display: flex;
-     max-width: 1500px;
-     min-height: 500px;
-}
-
 .ReactPiano__Key--accidental {
      background: #009fb7;
      border: 1px solid #009fb7;
      border-radius: 0 0 7px 7px;
-     height: 66%;
      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .ReactPiano__Key--natural {
-     background: #ffffff;
-     border: 1px solid #e2e2e2;
      border-radius: 0 0 10px 10px;
-     min-height: 500px;
      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -32,94 +17,13 @@
 .ReactPiano__Key--active.ReactPiano__Key--accidental {
      border: 1px solid #3ac8da;
      border-top: 1px solid #3ac8da;
-     height: 65%;
 }
 
 .ReactPiano__Key--active.ReactPiano__Key--natural {
      border: 1px solid #3ac8da;
-     min-height: 498px;
 }
 .ReactPiano__NoteLabel--accidental,
 .ReactPiano__NoteLabel--natural,
 .ReactPiano__NoteLabel--natural.ReactPiano__NoteLabel--active {
      color: transparent;
-}
-
-@media screen and (max-width: 1550px) {
-     .ReactPiano__Keyboard {
-          max-width: 1200px;
-          min-height: 400px;
-     }
-
-     .ReactPiano__Key--natural {
-          min-height: 400px;
-     }
-
-     .ReactPiano__Key--active.ReactPiano__Key--natural {
-          min-height: 398px;
-     }
-}
-@media screen and (max-width: 1300px) {
-     .ReactPiano__Keyboard {
-          max-width: 1000px;
-          min-height: 330px;
-     }
-
-     .ReactPiano__Key--natural {
-          min-height: 330px;
-     }
-
-     .ReactPiano__Key--active.ReactPiano__Key--natural {
-          min-height: 328px;
-     }
-}
-@media screen and (max-width: 1100px) {
-     .ReactPiano__Keyboard {
-          max-width: 750px;
-          min-height: 240px;
-     }
-
-     .ReactPiano__Key--natural {
-          min-height: 240px;
-     }
-
-     .ReactPiano__Key--active.ReactPiano__Key--natural {
-          min-height: 238px;
-     }
-}
-@media screen and (max-width: 850px) {
-     .ReactPiano__Keyboard {
-          max-width: 540px;
-          min-height: 180px;
-     }
-
-     .ReactPiano__Key--natural {
-          min-height: 180px;
-          border-radius: 0 0 6px 6px;
-     }
-     .ReactPiano__Key--accidental {
-          border-radius: 0 0 4px 4px;
-     }
-
-     .ReactPiano__Key--active.ReactPiano__Key--natural {
-          min-height: 178px;
-     }
-}
-@media screen and (max-width: 640px) {
-     .ReactPiano__Keyboard {
-          max-width: 320px;
-          min-height: 108px;
-     }
-
-     .ReactPiano__Key--natural {
-          min-height: 108px;
-          border-radius: 0 0 6px 6px;
-     }
-
-     .ReactPiano__Key--active.ReactPiano__Key--natural {
-          min-height: 106px;
-     }
-     .ReactPiano__Key--accidental {
-          border-radius: 0 0 4px 4px;
-     }
 }

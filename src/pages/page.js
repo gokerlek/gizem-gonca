@@ -8,7 +8,7 @@ import { useState, useEffect } from "react";
 import { idfy } from "../utils/idfy";
 
 const questionColor = (color) =>
-     classNames(`bg-${color}`, "shadow-2xl bg m-2 p-2 rounded-xl");
+     classNames(`bg-${color}`, "shadow-question bg m-2 p-2 rounded-xl");
 
 const context = require.context("../cms/pages", true, /\.json$/, "lazy");
 console.log(context.keys());
