@@ -150,10 +150,18 @@
           "melodynote": ""
         },
         {
-          "title": "Soru Adı",
-          "color": "",
+          "title": "10",
+          "color": "kolay",
           "notes": [
-
+            {
+              "note": "E4"
+            },
+            {
+              "note": "A4"
+            },
+            {
+              "note": "C5"
+            }
           ],
           "melodynote": ""
         },
