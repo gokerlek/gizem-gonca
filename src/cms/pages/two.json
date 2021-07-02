@@ -6,75 +6,17 @@
       "template": "question",
       "questions": [
         {
-          "title": "Soru Adı",
-          "color": "",
-          "notes": [
-
-          ],
-          "melodynote": ""
-        },
-        {
-          "title": "Soru Adı",
-          "color": "",
-          "notes": [
-
-          ],
-          "melodynote": ""
-        },
-        {
-          "title": "Soru Adı",
-          "color": "",
-          "notes": [
-
-          ],
-          "melodynote": ""
-        },
-        {
-          "title": "5",
-          "color": "zor",
-          "notes": [
-            {
-              "note": "G4",
-              "time": "0",
-              "duration": ""
-            },
-            {
-              "note": "",
-              "time": "0",
-              "duration": ""
-            }
-          ],
-          "melodynote": ""
-        },
-        {
-          "title": "4",
+          "title": "1",
           "melodynote": "",
           "color": "zor",
           "notes": [
             {
-              "note": "C4",
+              "note": "E4",
               "time": "0",
               "duration": ""
             },
             {
-              "note": "D4",
-              "time": "0",
-              "duration": ""
-            }
-          ]
-        },
-        {
-          "title": "3",
-          "melodynote": "",
-          "color": "zor",
-          "notes": [
-            {
-              "note": "D#4",
-              "time": "0",
-              "duration": ""
-            },
-            {
-              "note": "F4",
+              "note": "F#4",
               "time": "0",
               "duration": ""
             }
@@ -98,21 +40,94 @@
           ]
         },
         {
-          "title": "1",
+          "title": "3",
           "melodynote": "",
           "color": "zor",
           "notes": [
             {
-              "note": "E4",
+              "note": "D#4",
               "time": "0",
               "duration": ""
             },
             {
-              "note": "F#4",
+              "note": "F4",
               "time": "0",
               "duration": ""
             }
           ]
+        },
+        {
+          "title": "4",
+          "melodynote": "",
+          "color": "zor",
+          "notes": [
+            {
+              "note": "C4",
+              "time": "0",
+              "duration": ""
+            },
+            {
+              "note": "D4",
+              "time": "0",
+              "duration": ""
+            }
+          ]
+        },
+        {
+          "title": "5",
+          "color": "zor",
+          "notes": [
+            {
+              "note": "G4",
+              "time": "0",
+              "duration": ""
+            },
+            {
+              "note": "G#4",
+              "time": "0",
+              "duration": ""
+            }
+          ],
+          "melodynote": ""
+        },
+        {
+          "title": "6",
+          "color": "zor",
+          "notes": [
+            {
+              "note": "A4"
+            },
+            {
+              "note": "A#4"
+            }
+          ],
+          "melodynote": ""
+        },
+        {
+          "title": "7",
+          "color": "zor",
+          "notes": [
+            {
+              "note": "C4"
+            },
+            {
+              "note": "C#4"
+            }
+          ],
+          "melodynote": ""
+        },
+        {
+          "title": "8",
+          "color": "zor",
+          "notes": [
+            {
+              "note": "F#4"
+            },
+            {
+              "note": "G4"
+            }
+          ],
+          "melodynote": ""
         }
       ]
     }
