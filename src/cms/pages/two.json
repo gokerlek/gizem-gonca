@@ -468,18 +468,28 @@
           "melodynote": ""
         },
         {
-          "title": "Soru Adı",
-          "color": "",
+          "title": "35",
+          "color": "kolay",
           "notes": [
-
+            {
+              "note": "C#4"
+            },
+            {
+              "note": "A#4"
+            }
           ],
           "melodynote": ""
         },
         {
-          "title": "Soru Adı",
-          "color": "",
+          "title": "36",
+          "color": "kolay",
           "notes": [
-
+            {
+              "note": "B3"
+            },
+            {
+              "note": "G#4"
+            }
           ],
           "melodynote": ""
         },
