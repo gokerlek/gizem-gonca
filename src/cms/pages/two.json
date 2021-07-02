@@ -6,11 +6,28 @@
       "template": "question",
       "questions": [
         {
-          "title": "123456",
-          "color": "kolay",
+          "title": "Soru Adı",
+          "melodynote": "",
+          "color": "",
+          "notes": [
+
+          ]
+        },
+        {
+          "title": "Soru Adı",
+          "melodynote": "",
+          "color": "",
+          "notes": [
+
+          ]
+        },
+        {
+          "title": "2",
+          "melodynote": "",
+          "color": "zor",
           "notes": [
             {
-              "note": "C4",
+              "note": "F4",
               "time": "0",
               "duration": ""
             },
@@ -19,59 +36,24 @@
               "time": "0",
               "duration": ""
             }
-          ],
-          "melodynote": ""
+          ]
         },
         {
-          "title": "1254",
-          "color": "kolay",
-          "notes": [
-            {
-              "note": "A3",
-              "time": "0",
-              "duration": ""
-            },
-            {
-              "note": "D4",
-              "time": "0",
-              "duration": ""
-            }
-          ],
-          "melodynote": ""
-        },
-        {
-          "title": "1255",
-          "color": "kolay",
-          "notes": [
-            {
-              "note": "B3",
-              "time": "",
-              "duration": ""
-            },
-            {
-              "note": "B4",
-              "time": "",
-              "duration": ""
-            }
-          ],
-          "melodynote": ""
-        },
-        {
-          "title": "1520",
+          "title": "1",
+          "melodynote": "",
           "color": "zor",
           "notes": [
             {
-              "note": "A3",
-              "time": "",
+              "note": "E4",
+              "time": "0",
               "duration": ""
             },
             {
-              "note": "A4",
-              "time": "",
+              "note": "F#4",
+              "time": "0",
               "duration": ""
             }
-          ],
-          "melodynote": ""
+          ]
         }
       ]
     }
