@@ -17,7 +17,7 @@ export const TopButton = () => {
                                         strokeWidth: "3",
                                    },
                               }}>
-                              <a>
+                              <a href='#/'>
                                    <FiTriangle />
                               </a>
                          </IconContext.Provider>

@@ -2,15 +2,13 @@ import { useMidiData } from "../component/use-midi-data";
 import { Container } from "../component/container";
 import { SoundButton } from "../component/sound-button";
 import { NoteButton } from "../component/note-button";
-import sounds from "../cms/sounds.json";
 import classNames from "classnames";
 import { useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { idfy } from "../utils/idfy";
 
-const questions = sounds.questions;
 const questionColor = (color) =>
-     classNames(`bg-${color}`, "shadow-2xl bg m-2 p-2 rounded-xl");
+     classNames(`bg-${color}`, "shadow-question bg m-2 p-2 rounded-xl");
 
 const context = require.context("../cms/pages", true, /\.json$/, "lazy");
 console.log(context.keys());
@@ -18,16 +16,16 @@ console.log(context.keys());
 export const Page = () => {
      const { slug } = useParams();
      const [pageData, setPageData] = useState();
-     console.log(slug);
-     const { acRef, clavinetRef } = useMidiData(
-          "acoustic_grand_piano",
-          "FluidR3_GM"
-     );
+
+     const instrument =
+          pageData?.title === "rhythm" ? "woodblock" : "electric_grand_piano";
+     const { acRef, clavinetRef } = useMidiData(instrument, "FluidR3_GM");
      const handleQuestionClick = (notes) => () => {
           notes.map((note) => {
                if (clavinetRef.current?.play) {
                     clavinetRef.current?.play(note.note);
                }
+               return console.log(note.note);
           });
      };
      const meloditekrari = (notes) => () => {
@@ -39,7 +37,14 @@ export const Page = () => {
                          duration: note.duration,
                     },
                ]);
+               return console.log(note.time, note.midi, note.duration);
           });
+     };
+
+     const stopMusic = () => {
+          if (clavinetRef.current?.stop) {
+               clavinetRef.current?.stop();
+          }
      };
      useEffect(() => {
           const key = context
@@ -53,14 +58,14 @@ export const Page = () => {
                     });
           }
      }, [slug, setPageData]);
-     console.log(pageData);
+     console.log(pageData?.title);
 
      return (
           <Container>
                {pageData?.blocks[0].questions?.map((question) =>
-                    pageData?.description == "two" ||
-                    pageData?.description == "three" ||
-                    pageData?.description == "four" ? (
+                    pageData?.description === "two" ||
+                    pageData?.description === "three" ||
+                    pageData?.description === "four" ? (
                          <div
                               className={questionColor(question.color)}
                               key={question.id}>
@@ -83,6 +88,23 @@ export const Page = () => {
                                              ])}
                                         />
                                    ))}
+                              </div>
+                         </div>
+                    ) : pageData?.description === "melody" ? (
+                         <div
+                              className={questionColor(question.color)}
+                              key={question.id}>
+                              <div>
+                                   <SoundButton
+                                        color={question.color}
+                                        onClick={meloditekrari(
+                                             JSON.parse(question.melodynote)
+                                        )}>
+                                        {question.title.toLocaleUpperCase()}
+                                   </SoundButton>
+                                   <SoundButton onClick={stopMusic}>
+                                        Stop
+                                   </SoundButton>
                               </div>
                          </div>
                     ) : (

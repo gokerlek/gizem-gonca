@@ -1,9 +1,7 @@
 import { useRef, useEffect } from "react";
 import * as Soundfont from "soundfont-player";
 
-export const useMidiData = (goker, soundfonts) => {
-     /*const [midiData, setMidiData] = useState([]);*/
-
+export const useMidiData = (instruments, soundfonts) => {
      const clavinetRef = useRef();
      const acRef = useRef();
 
@@ -11,7 +9,7 @@ export const useMidiData = (goker, soundfonts) => {
           const ac = new AudioContext();
           acRef.current = ac.currentTime;
 
-          Soundfont.instrument(ac, goker, {
+          Soundfont.instrument(ac, instruments, {
                soundfont: soundfonts,
           }).then(function (clavinet) {
                clavinetRef.current = clavinet;
@@ -21,7 +19,7 @@ export const useMidiData = (goker, soundfonts) => {
                     });
                });
           });
-     }, []);
+     }, [instruments, soundfonts]);
 
      return { acRef, clavinetRef };
 };
