@@ -324,6 +324,38 @@
             }
           ],
           "melodynote": ""
+        },
+        {
+          "color": "zor",
+          "notes": [
+            {
+              "note": "B3"
+            },
+            {
+              "note": "D4"
+            },
+            {
+              "note": "F4"
+            }
+          ],
+          "melodynote": "",
+          "title": "21"
+        },
+        {
+          "title": "22",
+          "color": "zor",
+          "notes": [
+            {
+              "note": "D4"
+            },
+            {
+              "note": "F4"
+            },
+            {
+              "note": "B4"
+            }
+          ],
+          "melodynote": ""
         }
       ]
     }
