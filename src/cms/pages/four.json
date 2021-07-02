@@ -633,234 +633,553 @@
           "melodynote": ""
         },
         {
-          "title": "Soru Adı",
-          "color": "",
+          "title": "34",
+          "color": "zor",
           "notes": [
-
+            {
+              "note": "D4"
+            },
+            {
+              "note": "F#4"
+            },
+            {
+              "note": "A4"
+            },
+            {
+              "note": "C#5"
+            }
           ],
           "melodynote": ""
         },
         {
-          "title": "Soru Adı",
-          "color": "",
+          "title": "35",
+          "color": "zor",
           "notes": [
-
+            {
+              "note": "C4"
+            },
+            {
+              "note": "E4"
+            },
+            {
+              "note": "G4"
+            },
+            {
+              "note": "B4"
+            }
           ],
           "melodynote": ""
         },
         {
-          "title": "Soru Adı",
-          "color": "",
+          "title": "36",
+          "color": "zor",
           "notes": [
-
+            {
+              "note": "E4"
+            },
+            {
+              "note": "G#4"
+            },
+            {
+              "note": "B4"
+            },
+            {
+              "note": "D#5"
+            }
           ],
           "melodynote": ""
         },
         {
-          "title": "Soru Adı",
-          "color": "",
+          "title": "37",
+          "color": "zor",
           "notes": [
-
+            {
+              "note": "A#3"
+            },
+            {
+              "note": "D4"
+            },
+            {
+              "note": "F4"
+            },
+            {
+              "note": "A4"
+            }
           ],
           "melodynote": ""
         },
         {
-          "title": "Soru Adı",
-          "color": "",
+          "title": "38",
+          "color": "zor",
           "notes": [
-
+            {
+              "note": "B3"
+            },
+            {
+              "note": "D#4"
+            },
+            {
+              "note": "F#4"
+            },
+            {
+              "note": "A#4"
+            }
           ],
           "melodynote": ""
         },
         {
-          "title": "Soru Adı",
-          "color": "",
+          "title": "39",
+          "color": "zor",
           "notes": [
-
+            {
+              "note": "D#4"
+            },
+            {
+              "note": "G4"
+            },
+            {
+              "note": "A#4"
+            },
+            {
+              "note": "D5"
+            }
           ],
           "melodynote": ""
         },
         {
-          "title": "Soru Adı",
-          "color": "",
+          "title": "40",
+          "color": "zor",
           "notes": [
-
+            {
+              "note": "C#4"
+            },
+            {
+              "note": "F4"
+            },
+            {
+              "note": "G#4"
+            },
+            {
+              "note": "C5"
+            }
           ],
           "melodynote": ""
         },
         {
-          "title": "Soru Adı",
-          "color": "",
+          "title": "41",
+          "color": "zor",
           "notes": [
-
+            {
+              "note": "F#4"
+            },
+            {
+              "note": "A4"
+            },
+            {
+              "note": "C#5"
+            },
+            {
+              "note": "D5"
+            }
           ],
           "melodynote": ""
         },
         {
-          "title": "Soru Adı",
-          "color": "",
+          "title": "42",
+          "color": "zor",
           "notes": [
-
+            {
+              "note": "E4"
+            },
+            {
+              "note": "G4"
+            },
+            {
+              "note": "B4"
+            },
+            {
+              "note": "C5"
+            }
           ],
           "melodynote": ""
         },
         {
-          "title": "Soru Adı",
-          "color": "",
+          "title": "43",
+          "color": "zor",
           "notes": [
-
+            {
+              "note": "D4"
+            },
+            {
+              "note": "F4"
+            },
+            {
+              "note": "A4"
+            },
+            {
+              "note": "A#4"
+            }
           ],
           "melodynote": ""
         },
         {
-          "title": "Soru Adı",
-          "color": "",
+          "title": "44",
+          "color": "zor",
           "notes": [
-
+            {
+              "note": "D#4"
+            },
+            {
+              "note": "F#4"
+            },
+            {
+              "note": "A#4"
+            },
+            {
+              "note": "B4"
+            }
           ],
           "melodynote": ""
         },
         {
-          "title": "Soru Adı",
-          "color": "",
+          "title": "45",
+          "color": "zor",
           "notes": [
-
+            {
+              "note": "F4"
+            },
+            {
+              "note": "G#4"
+            },
+            {
+              "note": "C5"
+            },
+            {
+              "note": "C#5"
+            }
           ],
           "melodynote": ""
         },
         {
-          "title": "Soru Adı",
-          "color": "",
+          "title": "46",
+          "color": "zor",
           "notes": [
-
+            {
+              "note": "A3"
+            },
+            {
+              "note": "C#4"
+            },
+            {
+              "note": "D4"
+            },
+            {
+              "note": "F#4"
+            }
           ],
           "melodynote": ""
         },
         {
-          "title": "Soru Adı",
-          "color": "",
+          "title": "47",
+          "color": "zor",
           "notes": [
-
+            {
+              "note": "B3"
+            },
+            {
+              "note": "D#4"
+            },
+            {
+              "note": "E4"
+            },
+            {
+              "note": "G#4"
+            }
           ],
           "melodynote": ""
         },
         {
-          "title": "Soru Adı",
-          "color": "",
+          "title": "48",
+          "color": "zor",
           "notes": [
-
+            {
+              "note": "F4"
+            },
+            {
+              "note": "A4"
+            },
+            {
+              "note": "A#4"
+            },
+            {
+              "note": "D5"
+            }
           ],
           "melodynote": ""
         },
         {
-          "title": "Soru Adı",
-          "color": "",
+          "title": "49",
+          "color": "zor",
           "notes": [
-
+            {
+              "note": "C4"
+            },
+            {
+              "note": "E4"
+            },
+            {
+              "note": "F4"
+            },
+            {
+              "note": "A4"
+            }
           ],
           "melodynote": ""
         },
         {
-          "title": "Soru Adı",
-          "color": "",
+          "title": "50",
+          "color": "zor",
           "notes": [
-
+            {
+              "note": "A#4"
+            },
+            {
+              "note": "D4"
+            },
+            {
+              "note": "D#4"
+            },
+            {
+              "note": "G4"
+            }
           ],
           "melodynote": ""
         },
         {
-          "title": "Soru Adı",
-          "color": "",
+          "title": "51",
+          "color": "zor",
           "notes": [
-
+            {
+              "note": "C#4"
+            },
+            {
+              "note": "D4"
+            },
+            {
+              "note": "F#4"
+            },
+            {
+              "note": "A4"
+            }
           ],
           "melodynote": ""
         },
         {
-          "title": "Soru Adı",
-          "color": "",
+          "title": "52",
+          "color": "zor",
           "notes": [
-
+            {
+              "note": "B3"
+            },
+            {
+              "note": "C4"
+            },
+            {
+              "note": "E4"
+            },
+            {
+              "note": "G4"
+            }
           ],
           "melodynote": ""
         },
         {
-          "title": "Soru Adı",
-          "color": "",
+          "title": "53",
+          "color": "zor",
           "notes": [
-
+            {
+              "note": "D#4"
+            },
+            {
+              "note": "E4"
+            },
+            {
+              "note": "G#4"
+            },
+            {
+              "note": "B4"
+            }
           ],
           "melodynote": ""
         },
         {
-          "title": "Soru Adı",
-          "color": "",
+          "title": "54",
+          "color": "zor",
           "notes": [
-
+            {
+              "note": "A3"
+            },
+            {
+              "note": "A#3"
+            },
+            {
+              "note": "D4"
+            },
+            {
+              "note": "F4"
+            }
           ],
           "melodynote": ""
         },
         {
-          "title": "Soru Adı",
-          "color": "",
+          "title": "55",
+          "color": "zor",
           "notes": [
-
+            {
+              "note": "E4"
+            },
+            {
+              "note": "F4"
+            },
+            {
+              "note": "A4"
+            },
+            {
+              "note": "C5"
+            }
           ],
           "melodynote": ""
         },
         {
-          "title": "Soru Adı",
-          "color": "",
+          "title": "56",
+          "color": "zor",
           "notes": [
-
+            {
+              "note": "A#3"
+            },
+            {
+              "note": "B3"
+            },
+            {
+              "note": "D#4"
+            },
+            {
+              "note": "F#4"
+            }
           ],
           "melodynote": ""
         },
         {
-          "title": "Soru Adı",
-          "color": "",
+          "title": "57",
+          "color": "zor",
           "notes": [
-
+            {
+              "note": "D4"
+            },
+            {
+              "note": "D#4"
+            },
+            {
+              "note": "G4"
+            },
+            {
+              "note": "A#4"
+            }
           ],
           "melodynote": ""
         },
         {
-          "title": "Soru Adı",
-          "color": "",
+          "title": "58",
+          "color": "zor",
           "notes": [
-
+            {
+              "note": "C4"
+            },
+            {
+              "note": "C#4"
+            },
+            {
+              "note": "F4"
+            },
+            {
+              "note": "G#4"
+            }
           ],
           "melodynote": ""
         },
         {
-          "title": "Soru Adı",
-          "color": "",
+          "title": "59",
+          "color": "zor",
           "notes": [
-
+            {
+              "note": "D4"
+            },
+            {
+              "note": "F4"
+            },
+            {
+              "note": "A4"
+            },
+            {
+              "note": "C5"
+            }
           ],
           "melodynote": ""
         },
         {
-          "title": "Soru Adı",
-          "color": "",
+          "title": "60",
+          "color": "zor",
           "notes": [
-
+            {
+              "note": "C4"
+            },
+            {
+              "note": "D#4"
+            },
+            {
+              "note": "G4"
+            },
+            {
+              "note": "A#4"
+            }
           ],
           "melodynote": ""
         },
         {
-          "title": "Soru Adı",
-          "color": "",
+          "title": "61",
+          "color": "zor",
           "notes": [
-
+            {
+              "note": "E4"
+            },
+            {
+              "note": "G4"
+            },
+            {
+              "note": "B4"
+            },
+            {
+              "note": "D5"
+            }
           ],
           "melodynote": ""
         },
         {
-          "title": "Soru Adı",
-          "color": "",
+          "title": "62",
+          "color": "zor",
           "notes": [
-
+            {
+              "note": "A#3"
+            },
+            {
+              "note": "C#4"
+            },
+            {
+              "note": "F4"
+            },
+            {
+              "note": "G#4"
+            }
           ],
           "melodynote": ""
         },
