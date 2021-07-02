@@ -7,9 +7,9 @@ export const SoundButton = ({ onClick, children, key, color }) => {
      );
      return (
           <div className='p-1 text-center '>
-               <button className={soundButton} onClick={onClick} key={key}>
+               <div className={soundButton} onClick={onClick} key={key}>
                     {children}
-               </button>
+               </div>
           </div>
      );
 };
