@@ -182,26 +182,50 @@
           "melodynote": ""
         },
         {
-          "title": "Soru Adı",
-          "color": "",
+          "title": "12",
+          "color": "zor",
           "notes": [
-
+            {
+              "note": "B3"
+            },
+            {
+              "note": "C#4"
+            },
+            {
+              "note": "F#4"
+            }
           ],
           "melodynote": ""
         },
         {
-          "title": "Soru Adı",
-          "color": "",
+          "title": "13",
+          "color": "zor",
           "notes": [
-
+            {
+              "note": "G4"
+            },
+            {
+              "note": "A4"
+            },
+            {
+              "note": "D5"
+            }
           ],
           "melodynote": ""
         },
         {
-          "title": "Soru Adı",
-          "color": "",
+          "title": "14",
+          "color": "zor",
           "notes": [
-
+            {
+              "note": "D4"
+            },
+            {
+              "note": "E4"
+            },
+            {
+              "note": "A4"
+            }
           ],
           "melodynote": ""
         },
