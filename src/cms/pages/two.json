@@ -299,50 +299,80 @@
           "melodynote": ""
         },
         {
-          "title": "Soru Adı",
-          "color": "",
+          "title": "22",
+          "color": "zor",
           "notes": [
-
+            {
+              "note": "E4"
+            },
+            {
+              "note": "A#4"
+            }
           ],
           "melodynote": ""
         },
         {
-          "title": "Soru Adı",
-          "color": "",
+          "title": "23",
+          "color": "zor",
           "notes": [
-
+            {
+              "note": "C4"
+            },
+            {
+              "note": "F#4"
+            }
           ],
           "melodynote": ""
         },
         {
-          "title": "Soru Adı",
-          "color": "",
+          "title": "24",
+          "color": "zor",
           "notes": [
-
+            {
+              "note": "D#4"
+            },
+            {
+              "note": "A4"
+            }
           ],
           "melodynote": ""
         },
         {
-          "title": "Soru Adı",
-          "color": "",
+          "title": "25",
+          "color": "kolay",
           "notes": [
-
+            {
+              "note": "F4"
+            },
+            {
+              "note": "B4"
+            }
           ],
           "melodynote": ""
         },
         {
-          "title": "Soru Adı",
-          "color": "",
+          "title": "26",
+          "color": "kolay",
           "notes": [
-
+            {
+              "note": "D4"
+            },
+            {
+              "note": "A4"
+            }
           ],
           "melodynote": ""
         },
         {
-          "title": "Soru Adı",
-          "color": "",
+          "title": " 27",
+          "color": "kolay",
           "notes": [
-
+            {
+              "note": "C4"
+            },
+            {
+              "note": "G4"
+            }
           ],
           "melodynote": ""
         },
