@@ -494,42 +494,67 @@
           "melodynote": ""
         },
         {
-          "title": "Soru Adı",
-          "color": "",
+          "title": "37",
+          "color": "zor",
           "notes": [
-
+            {
+              "note": "C4"
+            },
+            {
+              "note": "A#4"
+            }
           ],
           "melodynote": ""
         },
         {
-          "title": "Soru Adı",
-          "color": "",
+          "title": "38",
+          "color": "zor",
           "notes": [
-
+            {
+              "note": "C#4"
+            },
+            {
+              "note": "B4"
+            }
           ],
           "melodynote": ""
         },
         {
-          "title": "Soru Adı",
-          "color": "",
+          "title": "39",
+          "color": "zor",
           "notes": [
-
+            {
+              "note": "E4"
+            },
+            {
+              "note": "D5"
+            }
           ],
           "melodynote": ""
         },
         {
-          "title": "Soru Adı",
-          "color": "",
+          "title": "40",
+          "color": "zor",
           "notes": [
-
+            {
+              "note": "B3"
+            },
+            {
+              "note": "A4"
+            }
           ],
           "melodynote": ""
         },
         {
-          "title": "Soru Adı",
-          "color": "",
+          "title": "41",
+          "color": "zor",
           "notes": [
-
+            {
+              "note": "C4"
+            },
+            {
+              "note": "B4"
+            }
           ],
           "melodynote": ""
         },
