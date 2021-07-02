@@ -377,10 +377,15 @@
           "melodynote": ""
         },
         {
-          "title": "Soru Adı",
-          "color": "",
+          "title": "28",
+          "color": "kolay",
           "notes": [
-
+            {
+              "note": "F4"
+            },
+            {
+              "note": ""
+            }
           ],
           "melodynote": ""
         },
