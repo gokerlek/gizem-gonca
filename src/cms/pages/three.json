@@ -166,10 +166,18 @@
           "melodynote": ""
         },
         {
-          "title": "Soru Adı",
-          "color": "",
+          "title": "11",
+          "color": "kolay",
           "notes": [
-
+            {
+              "note": "E4"
+            },
+            {
+              "note": "G4"
+            },
+            {
+              "note": "B4"
+            }
           ],
           "melodynote": ""
         },
