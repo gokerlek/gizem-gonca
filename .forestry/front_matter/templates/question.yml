@@ -43,6 +43,7 @@ fields:
         - D#4
         - D#5
         - F#4
+        - G#4
         source:
           type: simple
           section: sounds
@@ -50,17 +51,6 @@ fields:
           path: 
       label: Note
       hidden: false
-    - name: time
-      type: text
-      config:
-        required: false
-      label: Time
-      default: '0'
-    - name: duration
-      type: text
-      config:
-        required: false
-      label: Duration
     config:
       min: 
       max: 
