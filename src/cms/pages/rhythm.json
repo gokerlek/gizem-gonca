@@ -6,6 +6,14 @@
       "template": "question",
       "questions": [
         {
+          "title": "1-1",
+          "color": "kolay",
+          "notes": [
+
+          ],
+          "melodynote": "[\n        {\n          \"name\": \"E4\",\n          \"midi\": 64,\n          \"time\": 0,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.375\n        },\n        {\n          \"name\": \"D4\",\n          \"midi\": 62,\n          \"time\": 0.375,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.375\n        },\n        {\n          \"name\": \"C4\",\n          \"midi\": 60,\n          \"time\": 0.75,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.75\n        }\n      ]"
+        },
+        {
           "title": "153854",
           "color": "zor",
           "notes": [
@@ -27,7 +35,8 @@
             {
               "note": "G4"
             }
-          ]
+          ],
+          "melodynote": ""
         }
       ]
     }
