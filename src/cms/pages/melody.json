@@ -1,19 +1,508 @@
 {
-  "title": "rhythm",
-  "description": "rhythm",
+  "title": "melody",
+  "description": "melody",
   "blocks": [
     {
       "template": "question",
       "questions": [
         {
-          "title": "melody1",
-          "color": "",
+          "title": "1-1",
+          "color": "kolay",
           "notes": [
 
           ],
-          "melodynote": "[\n          {\n               \"name\": \"F4\",\n               \"midi\": 65,\n               \"time\": 0,\n               \"velocity\": 0.9921259842519685,\n               \"duration\": 0.5\n          },\n          {\n               \"name\": \"F4\",\n               \"midi\": 65,\n               \"time\": 0.5,\n               \"velocity\": 0.9921259842519685,\n               \"duration\": 0.375\n          },\n          {\n               \"name\": \"G4\",\n               \"midi\": 67,\n               \"time\": 0.875,\n               \"velocity\": 0.9921259842519685,\n               \"duration\": 0.125\n          },\n          {\n               \"name\": \"F4\",\n               \"midi\": 65,\n               \"time\": 1,\n               \"velocity\": 0.9921259842519685,\n               \"duration\": 0.5\n          },\n          {\n               \"name\": \"A4\",\n               \"midi\": 69,\n               \"time\": 1.5,\n               \"velocity\": 0.9921259842519685,\n               \"duration\": 0.375\n          },\n          {\n               \"name\": \"A#4\",\n               \"midi\": 70,\n               \"time\": 1.875,\n               \"velocity\": 0.9921259842519685,\n               \"duration\": 0.125\n          },\n          {\n               \"name\": \"C5\",\n               \"midi\": 72,\n               \"time\": 2,\n               \"velocity\": 0.9921259842519685,\n               \"duration\": 0.5\n          },\n          {\n               \"name\": \"C5\",\n               \"midi\": 72,\n               \"time\": 2.5,\n               \"velocity\": 0.9921259842519685,\n               \"duration\": 0.375\n          },\n          {\n               \"name\": \"D5\",\n               \"midi\": 74,\n               \"time\": 2.875,\n               \"velocity\": 0.9921259842519685,\n               \"duration\": 0.125\n          },\n          {\n               \"name\": \"C5\",\n               \"midi\": 72,\n               \"time\": 3,\n               \"velocity\": 0.9921259842519685,\n               \"duration\": 1\n          },\n          {\n               \"name\": \"D5\",\n               \"midi\": 74,\n               \"time\": 4,\n               \"velocity\": 0.9921259842519685,\n               \"duration\": 0.5\n          },\n          {\n               \"name\": \"D5\",\n               \"midi\": 74,\n               \"time\": 4.5,\n               \"velocity\": 0.9921259842519685,\n               \"duration\": 0.375\n          },\n          {\n               \"name\": \"D5\",\n               \"midi\": 74,\n               \"time\": 4.875,\n               \"velocity\": 0.9921259842519685,\n               \"duration\": 0.125\n          },\n          {\n               \"name\": \"C5\",\n               \"midi\": 72,\n               \"time\": 5,\n               \"velocity\": 0.9921259842519685,\n               \"duration\": 0.5\n          },\n          {\n               \"name\": \"A4\",\n               \"midi\": 69,\n               \"time\": 5.5,\n               \"velocity\": 0.9921259842519685,\n               \"duration\": 0.375\n          },\n          {\n               \"name\": \"F4\",\n               \"midi\": 65,\n               \"time\": 5.875,\n               \"velocity\": 0.9921259842519685,\n               \"duration\": 0.125\n          },\n          {\n               \"name\": \"G4\",\n               \"midi\": 67,\n               \"time\": 6,\n               \"velocity\": 0.9921259842519685,\n               \"duration\": 0.5\n          },\n          {\n               \"name\": \"G4\",\n               \"midi\": 67,\n               \"time\": 6.5,\n               \"velocity\": 0.9921259842519685,\n               \"duration\": 0.375\n          },\n          {\n               \"name\": \"A4\",\n               \"midi\": 69,\n               \"time\": 6.875,\n               \"velocity\": 0.9921259842519685,\n               \"duration\": 0.125\n          },\n          {\n               \"name\": \"G4\",\n               \"midi\": 67,\n               \"time\": 7,\n               \"velocity\": 0.9921259842519685,\n               \"duration\": 0.5\n          },\n          {\n               \"name\": \"A4\",\n               \"midi\": 69,\n               \"time\": 8,\n               \"velocity\": 0.9921259842519685,\n               \"duration\": 0.5\n          },\n          {\n               \"name\": \"A4\",\n               \"midi\": 69,\n               \"time\": 8.5,\n               \"velocity\": 0.9921259842519685,\n               \"duration\": 0.375\n          },\n          {\n               \"name\": \"G4\",\n               \"midi\": 67,\n               \"time\": 8.875,\n               \"velocity\": 0.9921259842519685,\n               \"duration\": 0.125\n          },\n          {\n               \"name\": \"F4\",\n               \"midi\": 65,\n               \"time\": 9,\n               \"velocity\": 0.9921259842519685,\n               \"duration\": 0.5\n          },\n          {\n               \"name\": \"G4\",\n               \"midi\": 67,\n               \"time\": 9.5,\n               \"velocity\": 0.9921259842519685,\n               \"duration\": 0.375\n          },\n          {\n               \"name\": \"A4\",\n               \"midi\": 69,\n               \"time\": 9.875,\n               \"velocity\": 0.9921259842519685,\n               \"duration\": 0.125\n          },\n          {\n               \"name\": \"A#4\",\n               \"midi\": 70,\n               \"time\": 10,\n               \"velocity\": 0.9921259842519685,\n               \"duration\": 0.5\n          },\n          {\n               \"name\": \"A#4\",\n               \"midi\": 70,\n               \"time\": 10.5,\n               \"velocity\": 0.9921259842519685,\n               \"duration\": 0.375\n          },\n          {\n               \"name\": \"C5\",\n               \"midi\": 72,\n               \"time\": 10.875,\n               \"velocity\": 0.9921259842519685,\n               \"duration\": 0.125\n          },\n          {\n               \"name\": \"D5\",\n               \"midi\": 74,\n               \"time\": 11,\n               \"velocity\": 0.9921259842519685,\n               \"duration\": 1\n          },\n          {\n               \"name\": \"C5\",\n               \"midi\": 72,\n               \"time\": 12,\n               \"velocity\": 0.9921259842519685,\n               \"duration\": 0.5\n          },\n          {\n               \"name\": \"C5\",\n               \"midi\": 72,\n               \"time\": 12.5,\n               \"velocity\": 0.9921259842519685,\n               \"duration\": 0.375\n          },\n          {\n               \"name\": \"D5\",\n               \"midi\": 74,\n               \"time\": 12.875,\n               \"velocity\": 0.9921259842519685,\n               \"duration\": 0.125\n          },\n          {\n               \"name\": \"C5\",\n               \"midi\": 72,\n               \"time\": 13,\n               \"velocity\": 0.9921259842519685,\n               \"duration\": 0.5\n          },\n          {\n               \"name\": \"F4\",\n               \"midi\": 65,\n               \"time\": 13.5,\n               \"velocity\": 0.9921259842519685,\n               \"duration\": 0.375\n          },\n          {\n               \"name\": \"G4\",\n               \"midi\": 67,\n               \"time\": 13.875,\n               \"velocity\": 0.9921259842519685,\n               \"duration\": 0.125\n          },\n          {\n               \"name\": \"A4\",\n               \"midi\": 69,\n               \"time\": 14,\n               \"velocity\": 0.9921259842519685,\n               \"duration\": 0.5\n          },\n          {\n               \"name\": \"A4\",\n               \"midi\": 69,\n               \"time\": 14.5,\n               \"velocity\": 0.9921259842519685,\n               \"duration\": 0.375\n          },\n          {\n               \"name\": \"G4\",\n               \"midi\": 67,\n               \"time\": 14.875,\n               \"velocity\": 0.9921259842519685,\n               \"duration\": 0.125\n          },\n          {\n               \"name\": \"F4\",\n               \"midi\": 65,\n               \"time\": 15,\n               \"velocity\": 0.9921259842519685,\n               \"duration\": 1\n          }\n     ]"
+          "melodynote": "[\n        {\n          \"name\": \"E4\",\n          \"midi\": 64,\n          \"time\": 0,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.375\n        },\n        {\n          \"name\": \"D4\",\n          \"midi\": 62,\n          \"time\": 0.375,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.375\n        },\n        {\n          \"name\": \"C4\",\n          \"midi\": 60,\n          \"time\": 0.75,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.75\n        }\n      ]"
+        },
+        {
+          "title": "1-2",
+          "color": "kolay",
+          "notes": [
+
+          ],
+          "melodynote": "[\n        {\n          \"name\": \"G4\",\n          \"midi\": 67,\n          \"time\": 0,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"F4\",\n          \"midi\": 65,\n          \"time\": 0.21428550000000002,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"E4\",\n          \"midi\": 64,\n          \"time\": 0.42857100000000004,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"D4\",\n          \"midi\": 62,\n          \"time\": 0.6428565,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"C4\",\n          \"midi\": 60,\n          \"time\": 0.8571420000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.8571420000000001\n        }\n      ]"
+        },
+        {
+          "title": "1-3",
+          "color": "kolay",
+          "notes": [
+
+          ],
+          "melodynote": "[\n        {\n          \"name\": \"B3\",\n          \"midi\": 59,\n          \"time\": 0,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.375\n        },\n        {\n          \"name\": \"D4\",\n          \"midi\": 62,\n          \"time\": 0.375,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.375\n        },\n        {\n          \"name\": \"C4\",\n          \"midi\": 60,\n          \"time\": 0.75,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.75\n        }\n      ]"
+        },
+        {
+          "title": "1-4",
+          "color": "kolay",
+          "notes": [
+
+          ],
+          "melodynote": "[\n        {\n          \"name\": \"E4\",\n          \"midi\": 64,\n          \"time\": 0,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"F4\",\n          \"midi\": 65,\n          \"time\": 0.21428550000000002,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"E4\",\n          \"midi\": 64,\n          \"time\": 0.42857100000000004,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"D4\",\n          \"midi\": 62,\n          \"time\": 0.6428565,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"C4\",\n          \"midi\": 60,\n          \"time\": 0.8571420000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.8571420000000001\n        }\n      ]"
+        },
+        {
+          "title": "1-5",
+          "color": "kolay",
+          "notes": [
+
+          ],
+          "melodynote": "[\n        {\n          \"name\": \"B3\",\n          \"midi\": 59,\n          \"time\": 0,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"C4\",\n          \"midi\": 60,\n          \"time\": 0.21428550000000002,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"D4\",\n          \"midi\": 62,\n          \"time\": 0.42857100000000004,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"B3\",\n          \"midi\": 59,\n          \"time\": 0.6428565,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"C4\",\n          \"midi\": 60,\n          \"time\": 0.8571420000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.8571420000000001\n        }\n      ]"
+        },
+        {
+          "title": "1-6",
+          "color": "kolay",
+          "notes": [
+
+          ],
+          "melodynote": "[\n        {\n          \"name\": \"E4\",\n          \"midi\": 64,\n          \"time\": 0,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"F4\",\n          \"midi\": 65,\n          \"time\": 0.21428550000000002,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"D4\",\n          \"midi\": 62,\n          \"time\": 0.42857100000000004,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"E4\",\n          \"midi\": 64,\n          \"time\": 0.6428565,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"C4\",\n          \"midi\": 60,\n          \"time\": 0.8571420000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.8571420000000001\n        }\n      ]"
+        },
+        {
+          "title": "1-7",
+          "color": "kolay",
+          "notes": [
+
+          ],
+          "melodynote": "[\n        {\n          \"name\": \"G4\",\n          \"midi\": 67,\n          \"time\": 0,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"E4\",\n          \"midi\": 64,\n          \"time\": 0.21428550000000002,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"F4\",\n          \"midi\": 65,\n          \"time\": 0.42857100000000004,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"D4\",\n          \"midi\": 62,\n          \"time\": 0.6428565,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"C4\",\n          \"midi\": 60,\n          \"time\": 0.8571420000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.8571420000000001\n        }\n      ]"
+        },
+        {
+          "title": "1-8",
+          "color": "kolay",
+          "notes": [
+
+          ],
+          "melodynote": "[\n        {\n          \"name\": \"B3\",\n          \"midi\": 59,\n          \"time\": 0,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"C4\",\n          \"midi\": 60,\n          \"time\": 0.21428550000000002,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.42857100000000004\n        },\n        {\n          \"name\": \"D4\",\n          \"midi\": 62,\n          \"time\": 0.6428565,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"C4\",\n          \"midi\": 60,\n          \"time\": 0.8571420000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.8571420000000001\n        }\n      ]"
+        },
+        {
+          "title": "1-9",
+          "color": "kolay",
+          "notes": [
+
+          ],
+          "melodynote": "[\n        {\n          \"name\": \"A4\",\n          \"midi\": 69,\n          \"time\": 0,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.42857100000000004\n        },\n        {\n          \"name\": \"B4\",\n          \"midi\": 71,\n          \"time\": 0.42857100000000004,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.42857100000000004\n        },\n        {\n          \"name\": \"C5\",\n          \"midi\": 72,\n          \"time\": 0.8571420000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.8571420000000001\n        }\n      ]"
+        },
+        {
+          "title": "1-10",
+          "color": "kolay",
+          "notes": [
+
+          ],
+          "melodynote": "[\n        {\n          \"name\": \"B4\",\n          \"midi\": 71,\n          \"time\": 0,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.42857100000000004\n        },\n        {\n          \"name\": \"D5\",\n          \"midi\": 74,\n          \"time\": 0.42857100000000004,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.42857100000000004\n        },\n        {\n          \"name\": \"C5\",\n          \"midi\": 72,\n          \"time\": 0.8571420000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.8571420000000001\n        }\n      ]"
+        },
+        {
+          "title": "1-11",
+          "color": "kolay",
+          "notes": [
+
+          ],
+          "melodynote": "[\n        {\n          \"name\": \"F4\",\n          \"midi\": 65,\n          \"time\": 0,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.42857100000000004\n        },\n        {\n          \"name\": \"E4\",\n          \"midi\": 64,\n          \"time\": 0.42857100000000004,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"D4\",\n          \"midi\": 62,\n          \"time\": 0.6428565,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"C4\",\n          \"midi\": 60,\n          \"time\": 0.8571420000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.8571420000000001\n        }\n      ]"
+        },
+        {
+          "title": "1-12",
+          "color": "kolay",
+          "notes": [
+
+          ],
+          "melodynote": "[\n        {\n          \"name\": \"G4\",\n          \"midi\": 67,\n          \"time\": 0,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.42857100000000004\n        },\n        {\n          \"name\": \"A4\",\n          \"midi\": 69,\n          \"time\": 0.42857100000000004,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"B4\",\n          \"midi\": 71,\n          \"time\": 0.6428565,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"C5\",\n          \"midi\": 72,\n          \"time\": 0.8571420000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.8571420000000001\n        }\n      ]"
+        },
+        {
+          "title": "1-13",
+          "color": "kolay",
+          "notes": [
+
+          ],
+          "melodynote": "[\n        {\n          \"name\": \"E4\",\n          \"midi\": 64,\n          \"time\": 0,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.6428565\n        },\n        {\n          \"name\": \"D4\",\n          \"midi\": 62,\n          \"time\": 0.6428565,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"C4\",\n          \"midi\": 60,\n          \"time\": 0.8571420000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.8571420000000001\n        }\n      ]"
+        },
+        {
+          "title": "1-14",
+          "color": "kolay",
+          "notes": [
+
+          ],
+          "melodynote": "[\n        {\n          \"name\": \"G4\",\n          \"midi\": 67,\n          \"time\": 0,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"A4\",\n          \"midi\": 69,\n          \"time\": 0.21428550000000002,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.42857100000000004\n        },\n        {\n          \"name\": \"B4\",\n          \"midi\": 71,\n          \"time\": 0.6428565,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"C5\",\n          \"midi\": 72,\n          \"time\": 0.8571420000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.8571420000000001\n        }\n      ]"
+        },
+        {
+          "title": "1-15",
+          "color": "kolay",
+          "notes": [
+
+          ],
+          "melodynote": "[\n        {\n          \"name\": \"F4\",\n          \"midi\": 65,\n          \"time\": 0,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"E4\",\n          \"midi\": 64,\n          \"time\": 0.21428550000000002,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.42857100000000004\n        },\n        {\n          \"name\": \"D4\",\n          \"midi\": 62,\n          \"time\": 0.6428565,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"C4\",\n          \"midi\": 60,\n          \"time\": 0.8571420000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.8571420000000001\n        }\n      ]"
+        },
+        {
+          "title": "1-16",
+          "color": "kolay",
+          "notes": [
+
+          ],
+          "melodynote": "[\n        {\n          \"name\": \"F4\",\n          \"midi\": 65,\n          \"time\": 0,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"E4\",\n          \"midi\": 64,\n          \"time\": 0.21428550000000002,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"D4\",\n          \"midi\": 62,\n          \"time\": 0.42857100000000004,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"E4\",\n          \"midi\": 64,\n          \"time\": 0.6428565,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"C4\",\n          \"midi\": 60,\n          \"time\": 0.8571420000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.8571420000000001\n        }\n      ]"
+        },
+        {
+          "title": "1-17",
+          "color": "kolay",
+          "notes": [
+
+          ],
+          "melodynote": "[\n        {\n          \"name\": \"G4\",\n          \"midi\": 67,\n          \"time\": 0,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.42857100000000004\n        },\n        {\n          \"name\": \"E4\",\n          \"midi\": 64,\n          \"time\": 0.42857100000000004,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"D4\",\n          \"midi\": 62,\n          \"time\": 0.6428565,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"C4\",\n          \"midi\": 60,\n          \"time\": 0.8571420000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.8571420000000001\n        }\n      ]"
+        },
+        {
+          "title": "1-18",
+          "color": "kolay",
+          "notes": [
+
+          ],
+          "melodynote": "[\n        {\n          \"name\": \"D4\",\n          \"midi\": 62,\n          \"time\": 0,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"E4\",\n          \"midi\": 64,\n          \"time\": 0.21428550000000002,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.42857100000000004\n        },\n        {\n          \"name\": \"D4\",\n          \"midi\": 62,\n          \"time\": 0.6428565,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"C4\",\n          \"midi\": 60,\n          \"time\": 0.8571420000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.8571420000000001\n        }\n      ]"
+        },
+        {
+          "title": "1-19",
+          "color": "kolay",
+          "notes": [
+
+          ],
+          "melodynote": "[\n        {\n          \"name\": \"B4\",\n          \"midi\": 71,\n          \"time\": 0,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.42857100000000004\n        },\n        {\n          \"name\": \"A4\",\n          \"midi\": 69,\n          \"time\": 0.42857100000000004,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"B4\",\n          \"midi\": 71,\n          \"time\": 0.6428565,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"C5\",\n          \"midi\": 72,\n          \"time\": 0.8571420000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.8571420000000001\n        }\n      ]"
+        },
+        {
+          "title": "1-20",
+          "color": "kolay",
+          "notes": [
+
+          ],
+          "melodynote": "[\n        {\n          \"name\": \"B4\",\n          \"midi\": 71,\n          \"time\": 0,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"A4\",\n          \"midi\": 69,\n          \"time\": 0.21428550000000002,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.42857100000000004\n        },\n        {\n          \"name\": \"G4\",\n          \"midi\": 67,\n          \"time\": 0.6428565,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"C5\",\n          \"midi\": 72,\n          \"time\": 0.8571420000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.8571420000000001\n        }\n      ]"
+        },
+        {
+          "title": "1-21",
+          "color": "kolay",
+          "notes": [
+
+          ],
+          "melodynote": "[\n        {\n          \"name\": \"E4\",\n          \"midi\": 64,\n          \"time\": 0,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"C4\",\n          \"midi\": 60,\n          \"time\": 0.21428550000000002,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"D4\",\n          \"midi\": 62,\n          \"time\": 0.42857100000000004,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"B3\",\n          \"midi\": 59,\n          \"time\": 0.6428565,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"C4\",\n          \"midi\": 60,\n          \"time\": 0.8571420000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.8571420000000001\n        }\n      ]"
+        },
+        {
+          "title": "1-22",
+          "color": "kolay",
+          "notes": [
+
+          ],
+          "melodynote": "[\n        {\n          \"name\": \"G4\",\n          \"midi\": 67,\n          \"time\": 0,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.42857100000000004\n        },\n        {\n          \"name\": \"D5\",\n          \"midi\": 74,\n          \"time\": 0.42857100000000004,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"B4\",\n          \"midi\": 71,\n          \"time\": 0.6428565,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"C5\",\n          \"midi\": 72,\n          \"time\": 0.8571420000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.8571420000000001\n        }\n      ]"
+        },
+        {
+          "title": "1-23",
+          "color": "kolay",
+          "notes": [
+
+          ],
+          "melodynote": "[\n        {\n          \"name\": \"C4\",\n          \"midi\": 60,\n          \"time\": 0,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"E4\",\n          \"midi\": 64,\n          \"time\": 0.21428550000000002,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"G4\",\n          \"midi\": 67,\n          \"time\": 0.42857100000000004,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"E4\",\n          \"midi\": 64,\n          \"time\": 0.6428565,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"C4\",\n          \"midi\": 60,\n          \"time\": 0.8571420000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.8571420000000001\n        }\n      ]"
+        },
+        {
+          "title": "1-24",
+          "color": "kolay",
+          "notes": [
+
+          ],
+          "melodynote": "[\n        {\n          \"name\": \"G4\",\n          \"midi\": 67,\n          \"time\": 0,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.285714\n        },\n        {\n          \"name\": \"A4\",\n          \"midi\": 69,\n          \"time\": 0.285714,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.285714\n        },\n        {\n          \"name\": \"B4\",\n          \"midi\": 71,\n          \"time\": 0.571428,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.285714\n        },\n        {\n          \"name\": \"C5\",\n          \"midi\": 72,\n          \"time\": 0.8571420000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.8571420000000001\n        }\n      ]"
+        },
+        {
+          "title": "1-25",
+          "color": "kolay",
+          "notes": [
+
+          ],
+          "melodynote": "[\n        {\n          \"name\": \"F4\",\n          \"midi\": 65,\n          \"time\": 0,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.285714\n        },\n        {\n          \"name\": \"E4\",\n          \"midi\": 64,\n          \"time\": 0.285714,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.285714\n        },\n        {\n          \"name\": \"D4\",\n          \"midi\": 62,\n          \"time\": 0.571428,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.285714\n        },\n        {\n          \"name\": \"C4\",\n          \"midi\": 60,\n          \"time\": 0.8571420000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.8571420000000001\n        }\n      ]"
+        },
+        {
+          "title": "1-26",
+          "color": "kolay",
+          "notes": [
+
+          ],
+          "melodynote": "[\n        {\n          \"name\": \"D5\",\n          \"midi\": 74,\n          \"time\": 0,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"C5\",\n          \"midi\": 72,\n          \"time\": 0.21428550000000002,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"B4\",\n          \"midi\": 71,\n          \"time\": 0.42857100000000004,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.42857100000000004\n        },\n        {\n          \"name\": \"C5\",\n          \"midi\": 72,\n          \"time\": 0.8571420000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.8571420000000001\n        }\n      ]"
+        },
+        {
+          "title": "1-27",
+          "color": "kolay",
+          "notes": [
+
+          ],
+          "melodynote": "[\n        {\n          \"name\": \"E4\",\n          \"midi\": 64,\n          \"time\": 0,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"F4\",\n          \"midi\": 65,\n          \"time\": 0.21428550000000002,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.42857100000000004\n        },\n        {\n          \"name\": \"D4\",\n          \"midi\": 62,\n          \"time\": 0.6428565,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"C4\",\n          \"midi\": 60,\n          \"time\": 0.8571420000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.8571420000000001\n        }\n      ]"
+        },
+        {
+          "title": "1-28",
+          "color": "kolay",
+          "notes": [
+
+          ],
+          "melodynote": "[\n        {\n          \"name\": \"C5\",\n          \"midi\": 72,\n          \"time\": 0,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"B4\",\n          \"midi\": 71,\n          \"time\": 0.21428550000000002,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"A4\",\n          \"midi\": 69,\n          \"time\": 0.42857100000000004,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"G4\",\n          \"midi\": 67,\n          \"time\": 0.6428565,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"C5\",\n          \"midi\": 72,\n          \"time\": 0.8571420000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.8571420000000001\n        }\n      ]"
+        },
+        {
+          "title": "1-29",
+          "color": "kolay",
+          "notes": [
+
+          ],
+          "melodynote": "[\n        {\n          \"name\": \"G4\",\n          \"midi\": 67,\n          \"time\": 0,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.42857100000000004\n        },\n        {\n          \"name\": \"E4\",\n          \"midi\": 64,\n          \"time\": 0.42857100000000004,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"D4\",\n          \"midi\": 62,\n          \"time\": 0.6428565,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"C4\",\n          \"midi\": 60,\n          \"time\": 0.8571420000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.8571420000000001\n        }\n      ]"
+        },
+        {
+          "title": "1-30",
+          "color": "kolay",
+          "notes": [
+
+          ],
+          "melodynote": "[\n        {\n          \"name\": \"C5\",\n          \"midi\": 72,\n          \"time\": 0,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"A4\",\n          \"midi\": 69,\n          \"time\": 0.21428550000000002,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"B4\",\n          \"midi\": 71,\n          \"time\": 0.42857100000000004,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"G4\",\n          \"midi\": 67,\n          \"time\": 0.6428565,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"C5\",\n          \"midi\": 72,\n          \"time\": 0.8571420000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.8571420000000001\n        }\n      ]"
+        },
+        {
+          "title": "1-31",
+          "color": "kolay",
+          "notes": [
+
+          ],
+          "melodynote": "[\n        {\n          \"name\": \"G4\",\n          \"midi\": 67,\n          \"time\": 0,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.285714\n        },\n        {\n          \"name\": \"B4\",\n          \"midi\": 71,\n          \"time\": 0.285714,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.285714\n        },\n        {\n          \"name\": \"D5\",\n          \"midi\": 74,\n          \"time\": 0.571428,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.285714\n        },\n        {\n          \"name\": \"C5\",\n          \"midi\": 72,\n          \"time\": 0.8571420000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.8571420000000001\n        }\n      ]"
+        },
+        {
+          "title": "1-32",
+          "color": "kolay",
+          "notes": [
+
+          ],
+          "melodynote": "[\n        {\n          \"name\": \"F4\",\n          \"midi\": 65,\n          \"time\": 0,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.285714\n        },\n        {\n          \"name\": \"D4\",\n          \"midi\": 62,\n          \"time\": 0.285714,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.285714\n        },\n        {\n          \"name\": \"B3\",\n          \"midi\": 59,\n          \"time\": 0.571428,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.285714\n        },\n        {\n          \"name\": \"C4\",\n          \"midi\": 60,\n          \"time\": 0.8571420000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.8571420000000001\n        }\n      ]"
+        },
+        {
+          "title": "1-33",
+          "color": "kolay",
+          "notes": [
+
+          ],
+          "melodynote": "[\n        {\n          \"name\": \"E4\",\n          \"midi\": 64,\n          \"time\": 0,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.42857100000000004\n        },\n        {\n          \"name\": \"F4\",\n          \"midi\": 65,\n          \"time\": 0.42857100000000004,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.42857100000000004\n        },\n        {\n          \"name\": \"E4\",\n          \"midi\": 64,\n          \"time\": 0.8571420000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.42857100000000004\n        },\n        {\n          \"name\": \"D4\",\n          \"midi\": 62,\n          \"time\": 1.285713,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.42857100000000004\n        },\n        {\n          \"name\": \"C4\",\n          \"midi\": 60,\n          \"time\": 1.7142840000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.8571420000000001\n        }\n      ]"
+        },
+        {
+          "title": "1-34",
+          "color": "kolay",
+          "notes": [
+
+          ],
+          "melodynote": "[\n        {\n          \"name\": \"B3\",\n          \"midi\": 59,\n          \"time\": 0,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"C4\",\n          \"midi\": 60,\n          \"time\": 0.21428550000000002,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"D4\",\n          \"midi\": 62,\n          \"time\": 0.42857100000000004,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"E4\",\n          \"midi\": 64,\n          \"time\": 0.6428565,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"F4\",\n          \"midi\": 65,\n          \"time\": 0.8571420000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.42857100000000004\n        },\n        {\n          \"name\": \"D4\",\n          \"midi\": 62,\n          \"time\": 1.285713,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.42857100000000004\n        },\n        {\n          \"name\": \"C4\",\n          \"midi\": 60,\n          \"time\": 1.7142840000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.8571420000000001\n        }\n      ]"
+        },
+        {
+          "title": "1-35",
+          "color": "kolay",
+          "notes": [
+
+          ],
+          "melodynote": "[\n        {\n          \"name\": \"G4\",\n          \"midi\": 67,\n          \"time\": 0,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.8571420000000001\n        },\n        {\n          \"name\": \"A4\",\n          \"midi\": 69,\n          \"time\": 0.8571420000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.42857100000000004\n        },\n        {\n          \"name\": \"B4\",\n          \"midi\": 71,\n          \"time\": 1.285713,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.42857100000000004\n        },\n        {\n          \"name\": \"C5\",\n          \"midi\": 72,\n          \"time\": 1.7142840000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.8571420000000001\n        }\n      ]"
+        },
+        {
+          "title": "1-36",
+          "color": "kolay",
+          "notes": [
+
+          ],
+          "melodynote": "[\n        {\n          \"name\": \"C5\",\n          \"midi\": 72,\n          \"time\": 0,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"B4\",\n          \"midi\": 71,\n          \"time\": 0.21428550000000002,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"A4\",\n          \"midi\": 69,\n          \"time\": 0.42857100000000004,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"G4\",\n          \"midi\": 67,\n          \"time\": 0.6428565,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"A4\",\n          \"midi\": 69,\n          \"time\": 0.8571420000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.42857100000000004\n        },\n        {\n          \"name\": \"B4\",\n          \"midi\": 71,\n          \"time\": 1.285713,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.42857100000000004\n        },\n        {\n          \"name\": \"C5\",\n          \"midi\": 72,\n          \"time\": 1.7142840000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.8571420000000001\n        }\n      ]"
+        },
+        {
+          "title": "1-37",
+          "color": "kolay",
+          "notes": [
+
+          ],
+          "melodynote": "[\n        {\n          \"name\": \"G4\",\n          \"midi\": 67,\n          \"time\": 0,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"F4\",\n          \"midi\": 65,\n          \"time\": 0.21428550000000002,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"E4\",\n          \"midi\": 64,\n          \"time\": 0.42857100000000004,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"D4\",\n          \"midi\": 62,\n          \"time\": 0.6428565,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"B3\",\n          \"midi\": 59,\n          \"time\": 0.8571420000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.42857100000000004\n        },\n        {\n          \"name\": \"D4\",\n          \"midi\": 62,\n          \"time\": 1.285713,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.42857100000000004\n        },\n        {\n          \"name\": \"C4\",\n          \"midi\": 60,\n          \"time\": 1.7142840000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.8571420000000001\n        }\n      ]"
+        },
+        {
+          "title": "1-38",
+          "color": "kolay",
+          "notes": [
+
+          ],
+          "melodynote": "[\n        {\n          \"name\": \"G4\",\n          \"midi\": 67,\n          \"time\": 0,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"A4\",\n          \"midi\": 69,\n          \"time\": 0.21428550000000002,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.42857100000000004\n        },\n        {\n          \"name\": \"B4\",\n          \"midi\": 71,\n          \"time\": 0.6428565,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"C5\",\n          \"midi\": 72,\n          \"time\": 0.8571420000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.42857100000000004\n        },\n        {\n          \"name\": \"D5\",\n          \"midi\": 74,\n          \"time\": 1.285713,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.42857100000000004\n        },\n        {\n          \"name\": \"C5\",\n          \"midi\": 72,\n          \"time\": 1.7142840000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.8571420000000001\n        }\n      ]"
+        },
+        {
+          "title": "1-39",
+          "color": "kolay",
+          "notes": [
+
+          ],
+          "melodynote": "[\n        {\n          \"name\": \"G4\",\n          \"midi\": 67,\n          \"time\": 0,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"E4\",\n          \"midi\": 64,\n          \"time\": 0.21428550000000002,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"F4\",\n          \"midi\": 65,\n          \"time\": 0.42857100000000004,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"D4\",\n          \"midi\": 62,\n          \"time\": 0.6428565,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"E4\",\n          \"midi\": 64,\n          \"time\": 0.8571420000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.42857100000000004\n        },\n        {\n          \"name\": \"G4\",\n          \"midi\": 67,\n          \"time\": 1.285713,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.42857100000000004\n        },\n        {\n          \"name\": \"C4\",\n          \"midi\": 60,\n          \"time\": 1.7142840000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.8571420000000001\n        }\n      ]"
+        },
+        {
+          "title": "1-40",
+          "color": "kolay",
+          "notes": [
+
+          ],
+          "melodynote": "[\n        {\n          \"name\": \"G4\",\n          \"midi\": 67,\n          \"time\": 0,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"A4\",\n          \"midi\": 69,\n          \"time\": 0.21428550000000002,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"B4\",\n          \"midi\": 71,\n          \"time\": 0.42857100000000004,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"C5\",\n          \"midi\": 72,\n          \"time\": 0.6428565,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"D5\",\n          \"midi\": 74,\n          \"time\": 0.8571420000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.2142854999999999\n        },\n        {\n          \"name\": \"C5\",\n          \"midi\": 72,\n          \"time\": 1.0714275,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.2142854999999999\n        },\n        {\n          \"name\": \"B4\",\n          \"midi\": 71,\n          \"time\": 1.2857129999999999,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.2142854999999999\n        },\n        {\n          \"name\": \"D5\",\n          \"midi\": 74,\n          \"time\": 1.4999984999999998,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.2142854999999999\n        },\n        {\n          \"name\": \"C5\",\n          \"midi\": 72,\n          \"time\": 1.7142839999999997,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.8571420000000001\n        }\n      ]"
+        },
+        {
+          "title": "1-41",
+          "color": "kolay",
+          "notes": [
+
+          ],
+          "melodynote": "[\n        {\n          \"name\": \"G4\",\n          \"midi\": 67,\n          \"time\": 0,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"A4\",\n          \"midi\": 69,\n          \"time\": 0.21428550000000002,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"F4\",\n          \"midi\": 65,\n          \"time\": 0.42857100000000004,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"G4\",\n          \"midi\": 67,\n          \"time\": 0.6428565,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"E4\",\n          \"midi\": 64,\n          \"time\": 0.8571420000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.2142854999999999\n        },\n        {\n          \"name\": \"F4\",\n          \"midi\": 65,\n          \"time\": 1.0714275,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.2142854999999999\n        },\n        {\n          \"name\": \"D4\",\n          \"midi\": 62,\n          \"time\": 1.2857129999999999,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.2142854999999999\n        },\n        {\n          \"name\": \"E4\",\n          \"midi\": 64,\n          \"time\": 1.4999984999999998,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.2142854999999999\n        },\n        {\n          \"name\": \"C4\",\n          \"midi\": 60,\n          \"time\": 1.7142839999999997,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.8571420000000001\n        }\n      ]"
+        },
+        {
+          "title": "1-42",
+          "color": "kolay",
+          "notes": [
+
+          ],
+          "melodynote": "[\n        {\n          \"name\": \"C5\",\n          \"midi\": 72,\n          \"time\": 0,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"A4\",\n          \"midi\": 69,\n          \"time\": 0.21428550000000002,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"B4\",\n          \"midi\": 71,\n          \"time\": 0.42857100000000004,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"G4\",\n          \"midi\": 67,\n          \"time\": 0.6428565,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"A4\",\n          \"midi\": 69,\n          \"time\": 0.8571420000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.6428565000000002\n        },\n        {\n          \"name\": \"B4\",\n          \"midi\": 71,\n          \"time\": 1.4999985000000002,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.2142854999999999\n        },\n        {\n          \"name\": \"C5\",\n          \"midi\": 72,\n          \"time\": 1.7142840000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.8571420000000001\n        }\n      ]"
+        },
+        {
+          "title": "1-43",
+          "color": "kolay",
+          "notes": [
+
+          ],
+          "melodynote": "[\n        {\n          \"name\": \"E4\",\n          \"midi\": 64,\n          \"time\": 0,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.285714\n        },\n        {\n          \"name\": \"D4\",\n          \"midi\": 62,\n          \"time\": 0.285714,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.285714\n        },\n        {\n          \"name\": \"C4\",\n          \"midi\": 60,\n          \"time\": 0.571428,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.285714\n        },\n        {\n          \"name\": \"B3\",\n          \"midi\": 59,\n          \"time\": 0.8571420000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.2142854999999999\n        },\n        {\n          \"name\": \"C4\",\n          \"midi\": 60,\n          \"time\": 1.0714275,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.2142854999999999\n        },\n        {\n          \"name\": \"D4\",\n          \"midi\": 62,\n          \"time\": 1.2857129999999999,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.2142854999999999\n        },\n        {\n          \"name\": \"E4\",\n          \"midi\": 64,\n          \"time\": 1.4999984999999998,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.2142854999999999\n        },\n        {\n          \"name\": \"C4\",\n          \"midi\": 60,\n          \"time\": 1.7142839999999997,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.8571420000000001\n        }\n      ]"
+        },
+        {
+          "title": "1-44",
+          "color": "kolay",
+          "notes": [
+
+          ],
+          "melodynote": "[\n        {\n          \"name\": \"E4\",\n          \"midi\": 64,\n          \"time\": 0,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"F4\",\n          \"midi\": 65,\n          \"time\": 0.21428550000000002,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"G4\",\n          \"midi\": 67,\n          \"time\": 0.42857100000000004,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.42857100000000004\n        },\n        {\n          \"name\": \"F4\",\n          \"midi\": 65,\n          \"time\": 0.8571420000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.2142854999999999\n        },\n        {\n          \"name\": \"E4\",\n          \"midi\": 64,\n          \"time\": 1.0714275,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.2142854999999999\n        },\n        {\n          \"name\": \"D4\",\n          \"midi\": 62,\n          \"time\": 1.2857129999999999,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.42857100000000004\n        },\n        {\n          \"name\": \"C4\",\n          \"midi\": 60,\n          \"time\": 1.714284,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.8571419999999998\n        }\n      ]"
+        },
+        {
+          "title": "1-45",
+          "color": "kolay",
+          "notes": [
+
+          ],
+          "melodynote": "[\n        {\n          \"name\": \"D5\",\n          \"midi\": 74,\n          \"time\": 0,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.6428565\n        },\n        {\n          \"name\": \"C5\",\n          \"midi\": 72,\n          \"time\": 0.6428565,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"B4\",\n          \"midi\": 71,\n          \"time\": 0.8571420000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.2142854999999999\n        },\n        {\n          \"name\": \"C5\",\n          \"midi\": 72,\n          \"time\": 1.0714275,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.2142854999999999\n        },\n        {\n          \"name\": \"D5\",\n          \"midi\": 74,\n          \"time\": 1.2857129999999999,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.2142854999999999\n        },\n        {\n          \"name\": \"B4\",\n          \"midi\": 71,\n          \"time\": 1.4999984999999998,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.2142854999999999\n        },\n        {\n          \"name\": \"C5\",\n          \"midi\": 72,\n          \"time\": 1.7142839999999997,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.8571420000000001\n        }\n      ]"
+        },
+        {
+          "title": "1-46",
+          "color": "kolay",
+          "notes": [
+
+          ],
+          "melodynote": "[\n        {\n          \"name\": \"B4\",\n          \"midi\": 71,\n          \"time\": 0,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"C5\",\n          \"midi\": 72,\n          \"time\": 0.21428550000000002,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"D5\",\n          \"midi\": 74,\n          \"time\": 0.42857100000000004,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"C5\",\n          \"midi\": 72,\n          \"time\": 0.6428565,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"B4\",\n          \"midi\": 71,\n          \"time\": 0.8571420000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.2142854999999999\n        },\n        {\n          \"name\": \"A4\",\n          \"midi\": 69,\n          \"time\": 1.0714275,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.2142854999999999\n        },\n        {\n          \"name\": \"G4\",\n          \"midi\": 67,\n          \"time\": 1.2857129999999999,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.42857100000000004\n        },\n        {\n          \"name\": \"C5\",\n          \"midi\": 72,\n          \"time\": 1.714284,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.8571419999999998\n        }\n      ]"
+        },
+        {
+          "title": "1-47",
+          "color": "kolay",
+          "notes": [
+
+          ],
+          "melodynote": "[\n        {\n          \"name\": \"F4\",\n          \"midi\": 65,\n          \"time\": 0,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"E4\",\n          \"midi\": 64,\n          \"time\": 0.21428550000000002,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.42857100000000004\n        },\n        {\n          \"name\": \"D4\",\n          \"midi\": 62,\n          \"time\": 0.6428565,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"E4\",\n          \"midi\": 64,\n          \"time\": 0.8571420000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.42857100000000004\n        },\n        {\n          \"name\": \"D4\",\n          \"midi\": 62,\n          \"time\": 1.285713,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.42857100000000004\n        },\n        {\n          \"name\": \"C4\",\n          \"midi\": 60,\n          \"time\": 1.7142840000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.8571420000000001\n        }\n      ]"
+        },
+        {
+          "title": "1-48",
+          "color": "kolay",
+          "notes": [
+
+          ],
+          "melodynote": "[\n        {\n          \"name\": \"G4\",\n          \"midi\": 67,\n          \"time\": 0,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.42857100000000004\n        },\n        {\n          \"name\": \"E4\",\n          \"midi\": 64,\n          \"time\": 0.42857100000000004,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"F4\",\n          \"midi\": 65,\n          \"time\": 0.6428565,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"G4\",\n          \"midi\": 67,\n          \"time\": 0.8571420000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.2142854999999999\n        },\n        {\n          \"name\": \"F4\",\n          \"midi\": 65,\n          \"time\": 1.0714275,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.2142854999999999\n        },\n        {\n          \"name\": \"E4\",\n          \"midi\": 64,\n          \"time\": 1.2857129999999999,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.2142854999999999\n        },\n        {\n          \"name\": \"D4\",\n          \"midi\": 62,\n          \"time\": 1.4999984999999998,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.2142854999999999\n        },\n        {\n          \"name\": \"C4\",\n          \"midi\": 60,\n          \"time\": 1.7142839999999997,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.8571420000000001\n        }\n      ]"
+        },
+        {
+          "title": "1-49",
+          "color": "kolay",
+          "notes": [
+
+          ],
+          "melodynote": "[\n        {\n          \"name\": \"F4\",\n          \"midi\": 65,\n          \"time\": 0,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"E4\",\n          \"midi\": 64,\n          \"time\": 0.21428550000000002,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.42857100000000004\n        },\n        {\n          \"name\": \"D4\",\n          \"midi\": 62,\n          \"time\": 0.6428565,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"C4\",\n          \"midi\": 60,\n          \"time\": 0.8571420000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.42857100000000004\n        },\n        {\n          \"name\": \"D4\",\n          \"midi\": 62,\n          \"time\": 1.285713,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.42857100000000004\n        },\n        {\n          \"name\": \"E4\",\n          \"midi\": 64,\n          \"time\": 1.7142840000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.4285709999999998\n        },\n        {\n          \"name\": \"D4\",\n          \"midi\": 62,\n          \"time\": 2.142855,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.4285709999999998\n        },\n        {\n          \"name\": \"C4\",\n          \"midi\": 60,\n          \"time\": 2.5714259999999998,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.8571420000000001\n        }\n      ]"
+        },
+        {
+          "title": "1-50",
+          "color": "kolay",
+          "notes": [
+
+          ],
+          "melodynote": "[\n        {\n          \"name\": \"G4\",\n          \"midi\": 67,\n          \"time\": 0,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"A4\",\n          \"midi\": 69,\n          \"time\": 0.21428550000000002,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"B4\",\n          \"midi\": 71,\n          \"time\": 0.42857100000000004,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"C5\",\n          \"midi\": 72,\n          \"time\": 0.6428565,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"D5\",\n          \"midi\": 74,\n          \"time\": 0.8571420000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.42857100000000004\n        },\n        {\n          \"name\": \"C5\",\n          \"midi\": 72,\n          \"time\": 1.285713,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.42857100000000004\n        },\n        {\n          \"name\": \"B4\",\n          \"midi\": 71,\n          \"time\": 1.7142840000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.6428565000000002\n        },\n        {\n          \"name\": \"D5\",\n          \"midi\": 74,\n          \"time\": 2.3571405000000003,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.2142854999999999\n        },\n        {\n          \"name\": \"C5\",\n          \"midi\": 72,\n          \"time\": 2.571426,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.8571420000000001\n        }\n      ]"
+        },
+        {
+          "title": "1-51",
+          "color": "kolay",
+          "notes": [
+
+          ],
+          "melodynote": "[\n        {\n          \"name\": \"G4\",\n          \"midi\": 67,\n          \"time\": 0,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.42857100000000004\n        },\n        {\n          \"name\": \"E4\",\n          \"midi\": 64,\n          \"time\": 0.42857100000000004,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.42857100000000004\n        },\n        {\n          \"name\": \"F4\",\n          \"midi\": 65,\n          \"time\": 0.8571420000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.42857100000000004\n        },\n        {\n          \"name\": \"D4\",\n          \"midi\": 62,\n          \"time\": 1.285713,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.42857100000000004\n        },\n        {\n          \"name\": \"G4\",\n          \"midi\": 67,\n          \"time\": 1.7142840000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.2142854999999999\n        },\n        {\n          \"name\": \"E4\",\n          \"midi\": 64,\n          \"time\": 1.9285695,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.2142854999999999\n        },\n        {\n          \"name\": \"F4\",\n          \"midi\": 65,\n          \"time\": 2.142855,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.2142854999999999\n        },\n        {\n          \"name\": \"D4\",\n          \"midi\": 62,\n          \"time\": 2.3571405,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.2142854999999999\n        },\n        {\n          \"name\": \"C4\",\n          \"midi\": 60,\n          \"time\": 2.5714259999999998,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.8571420000000001\n        }\n      ]"
+        },
+        {
+          "title": "1-52",
+          "color": "kolay",
+          "notes": [
+
+          ],
+          "melodynote": "[\n        {\n          \"name\": \"C5\",\n          \"midi\": 72,\n          \"time\": 0,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.285714\n        },\n        {\n          \"name\": \"B4\",\n          \"midi\": 71,\n          \"time\": 0.285714,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.285714\n        },\n        {\n          \"name\": \"A4\",\n          \"midi\": 69,\n          \"time\": 0.571428,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.285714\n        },\n        {\n          \"name\": \"G4\",\n          \"midi\": 67,\n          \"time\": 0.8571420000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.42857100000000004\n        },\n        {\n          \"name\": \"A4\",\n          \"midi\": 69,\n          \"time\": 1.285713,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.42857100000000004\n        },\n        {\n          \"name\": \"B4\",\n          \"midi\": 71,\n          \"time\": 1.7142840000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.4285709999999998\n        },\n        {\n          \"name\": \"G4\",\n          \"midi\": 67,\n          \"time\": 2.142855,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.4285709999999998\n        },\n        {\n          \"name\": \"C5\",\n          \"midi\": 72,\n          \"time\": 2.5714259999999998,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.8571420000000001\n        }\n      ]"
+        },
+        {
+          "title": "1-53",
+          "color": "kolay",
+          "notes": [
+
+          ],
+          "melodynote": "[\n        {\n          \"name\": \"D4\",\n          \"midi\": 62,\n          \"time\": 0,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"E4\",\n          \"midi\": 64,\n          \"time\": 0.21428550000000002,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"F4\",\n          \"midi\": 65,\n          \"time\": 0.42857100000000004,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"D4\",\n          \"midi\": 62,\n          \"time\": 0.6428565,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"E4\",\n          \"midi\": 64,\n          \"time\": 0.8571420000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.42857100000000004\n        },\n        {\n          \"name\": \"G4\",\n          \"midi\": 67,\n          \"time\": 1.285713,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.42857100000000004\n        },\n        {\n          \"name\": \"F4\",\n          \"midi\": 65,\n          \"time\": 1.7142840000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.2142854999999999\n        },\n        {\n          \"name\": \"E4\",\n          \"midi\": 64,\n          \"time\": 1.9285695,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.2142854999999999\n        },\n        {\n          \"name\": \"D4\",\n          \"midi\": 62,\n          \"time\": 2.142855,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.4285709999999998\n        },\n        {\n          \"name\": \"C4\",\n          \"midi\": 60,\n          \"time\": 2.5714259999999998,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.8571420000000001\n        }\n      ]"
+        },
+        {
+          "title": "1-54",
+          "color": "kolay",
+          "notes": [
+
+          ],
+          "melodynote": "[\n        {\n          \"name\": \"G4\",\n          \"midi\": 67,\n          \"time\": 0,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.6428565\n        },\n        {\n          \"name\": \"G4\",\n          \"midi\": 67,\n          \"time\": 0.6428565,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"A4\",\n          \"midi\": 69,\n          \"time\": 0.8571420000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.42857100000000004\n        },\n        {\n          \"name\": \"B4\",\n          \"midi\": 71,\n          \"time\": 1.285713,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.42857100000000004\n        },\n        {\n          \"name\": \"C5\",\n          \"midi\": 72,\n          \"time\": 1.7142840000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.2142854999999999\n        },\n        {\n          \"name\": \"B4\",\n          \"midi\": 71,\n          \"time\": 1.9285695,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.2142854999999999\n        },\n        {\n          \"name\": \"C5\",\n          \"midi\": 72,\n          \"time\": 2.142855,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.2142854999999999\n        },\n        {\n          \"name\": \"D5\",\n          \"midi\": 74,\n          \"time\": 2.3571405,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.2142854999999999\n        },\n        {\n          \"name\": \"C5\",\n          \"midi\": 72,\n          \"time\": 2.5714259999999998,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.8571420000000001\n        }\n      ]"
+        },
+        {
+          "title": "1-55",
+          "color": "kolay",
+          "notes": [
+
+          ],
+          "melodynote": "[\n        {\n          \"name\": \"E4\",\n          \"midi\": 64,\n          \"time\": 0,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"F4\",\n          \"midi\": 65,\n          \"time\": 0.21428550000000002,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"G4\",\n          \"midi\": 67,\n          \"time\": 0.42857100000000004,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.42857100000000004\n        },\n        {\n          \"name\": \"A4\",\n          \"midi\": 69,\n          \"time\": 0.8571420000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.42857100000000004\n        },\n        {\n          \"name\": \"F4\",\n          \"midi\": 65,\n          \"time\": 1.285713,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.42857100000000004\n        },\n        {\n          \"name\": \"D4\",\n          \"midi\": 62,\n          \"time\": 1.7142840000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.4285709999999998\n        },\n        {\n          \"name\": \"E4\",\n          \"midi\": 64,\n          \"time\": 2.142855,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.4285709999999998\n        },\n        {\n          \"name\": \"C4\",\n          \"midi\": 60,\n          \"time\": 2.5714259999999998,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.8571420000000001\n        }\n      ]"
+        },
+        {
+          "title": "1-56",
+          "color": "kolay",
+          "notes": [
+
+          ],
+          "melodynote": "[\n        {\n          \"name\": \"F4\",\n          \"midi\": 65,\n          \"time\": 0,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.42857100000000004\n        },\n        {\n          \"name\": \"E4\",\n          \"midi\": 64,\n          \"time\": 0.42857100000000004,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"D4\",\n          \"midi\": 62,\n          \"time\": 0.6428565,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"C4\",\n          \"midi\": 60,\n          \"time\": 0.8571420000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.42857100000000004\n        },\n        {\n          \"name\": \"D4\",\n          \"midi\": 62,\n          \"time\": 1.285713,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.42857100000000004\n        },\n        {\n          \"name\": \"E4\",\n          \"midi\": 64,\n          \"time\": 1.7142840000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.4285709999999998\n        },\n        {\n          \"name\": \"G4\",\n          \"midi\": 67,\n          \"time\": 2.142855,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.4285709999999998\n        },\n        {\n          \"name\": \"F4\",\n          \"midi\": 65,\n          \"time\": 2.5714259999999998,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.8571420000000001\n        }\n      ]"
+        },
+        {
+          "title": "1-57",
+          "color": "kolay",
+          "notes": [
+
+          ],
+          "melodynote": "[\n        {\n          \"name\": \"C5\",\n          \"midi\": 72,\n          \"time\": 0,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"D5\",\n          \"midi\": 74,\n          \"time\": 0.21428550000000002,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"C5\",\n          \"midi\": 72,\n          \"time\": 0.42857100000000004,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"A#4\",\n          \"midi\": 70,\n          \"time\": 0.6428565,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"A4\",\n          \"midi\": 69,\n          \"time\": 0.8571420000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.42857100000000004\n        },\n        {\n          \"name\": \"F4\",\n          \"midi\": 65,\n          \"time\": 1.285713,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.42857100000000004\n        },\n        {\n          \"name\": \"E4\",\n          \"midi\": 64,\n          \"time\": 1.7142840000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.4285709999999998\n        },\n        {\n          \"name\": \"G4\",\n          \"midi\": 67,\n          \"time\": 2.142855,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.4285709999999998\n        },\n        {\n          \"name\": \"F4\",\n          \"midi\": 65,\n          \"time\": 2.5714259999999998,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.8571420000000001\n        }\n      ]"
+        },
+        {
+          "title": "1-58",
+          "color": "kolay",
+          "notes": [
+
+          ],
+          "melodynote": "[\n        {\n          \"name\": \"F4\",\n          \"midi\": 65,\n          \"time\": 0,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"E4\",\n          \"midi\": 64,\n          \"time\": 0.21428550000000002,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.42857100000000004\n        },\n        {\n          \"name\": \"D4\",\n          \"midi\": 62,\n          \"time\": 0.6428565,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.21428550000000002\n        },\n        {\n          \"name\": \"C4\",\n          \"midi\": 60,\n          \"time\": 0.8571420000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.8571420000000001\n        },\n        {\n          \"name\": \"E4\",\n          \"midi\": 64,\n          \"time\": 1.7142840000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.2142854999999999\n        },\n        {\n          \"name\": \"F4\",\n          \"midi\": 65,\n          \"time\": 1.9285695,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.2142854999999999\n        },\n        {\n          \"name\": \"G4\",\n          \"midi\": 67,\n          \"time\": 2.142855,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.2142854999999999\n        },\n        {\n          \"name\": \"E4\",\n          \"midi\": 64,\n          \"time\": 2.3571405,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.2142854999999999\n        },\n        {\n          \"name\": \"F4\",\n          \"midi\": 65,\n          \"time\": 2.5714259999999998,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.8571420000000001\n        }\n      ]"
+        },
+        {
+          "title": "1-59",
+          "color": "kolay",
+          "notes": [
+
+          ],
+          "melodynote": "[\n        {\n          \"name\": \"C5\",\n          \"midi\": 72,\n          \"time\": 0,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.42857100000000004\n        },\n        {\n          \"name\": \"A4\",\n          \"midi\": 69,\n          \"time\": 0.42857100000000004,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.42857100000000004\n        },\n        {\n          \"name\": \"A#4\",\n          \"midi\": 70,\n          \"time\": 0.8571420000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.42857100000000004\n        },\n        {\n          \"name\": \"G4\",\n          \"midi\": 67,\n          \"time\": 1.285713,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.42857100000000004\n        },\n        {\n          \"name\": \"E4\",\n          \"midi\": 64,\n          \"time\": 1.7142840000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.2142854999999999\n        },\n        {\n          \"name\": \"C4\",\n          \"midi\": 60,\n          \"time\": 1.9285695,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.2142854999999999\n        },\n        {\n          \"name\": \"D4\",\n          \"midi\": 62,\n          \"time\": 2.142855,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.2142854999999999\n        },\n        {\n          \"name\": \"E4\",\n          \"midi\": 64,\n          \"time\": 2.3571405,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.2142854999999999\n        },\n        {\n          \"name\": \"F4\",\n          \"midi\": 65,\n          \"time\": 2.5714259999999998,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.8571420000000001\n        }\n      ]"
+        },
+        {
+          "title": "1-60",
+          "color": "kolay",
+          "notes": [
+
+          ],
+          "melodynote": "[\n        {\n          \"name\": \"F4\",\n          \"midi\": 65,\n          \"time\": 0,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.285714\n        },\n        {\n          \"name\": \"E4\",\n          \"midi\": 64,\n          \"time\": 0.285714,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.285714\n        },\n        {\n          \"name\": \"D4\",\n          \"midi\": 62,\n          \"time\": 0.571428,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.285714\n        },\n        {\n          \"name\": \"C4\",\n          \"midi\": 60,\n          \"time\": 0.8571420000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.42857100000000004\n        },\n        {\n          \"name\": \"A4\",\n          \"midi\": 69,\n          \"time\": 1.285713,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.42857100000000004\n        },\n        {\n          \"name\": \"G4\",\n          \"midi\": 67,\n          \"time\": 1.7142840000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.4285709999999998\n        },\n        {\n          \"name\": \"E4\",\n          \"midi\": 64,\n          \"time\": 2.142855,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.4285709999999998\n        },\n        {\n          \"name\": \"F4\",\n          \"midi\": 65,\n          \"time\": 2.5714259999999998,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.8571420000000001\n        }\n      ]"
+        },
+        {
+          "title": "1-61",
+          "color": "kolay",
+          "notes": [
+
+          ],
+          "melodynote": "[\n        {\n          \"name\": \"C4\",\n          \"midi\": 60,\n          \"time\": 0,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.42857100000000004\n        },\n        {\n          \"name\": \"E4\",\n          \"midi\": 64,\n          \"time\": 0.42857100000000004,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.42857100000000004\n        },\n        {\n          \"name\": \"G4\",\n          \"midi\": 67,\n          \"time\": 0.8571420000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.42857100000000004\n        },\n        {\n          \"name\": \"C5\",\n          \"midi\": 72,\n          \"time\": 1.285713,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.42857100000000004\n        },\n        {\n          \"name\": \"A#4\",\n          \"midi\": 70,\n          \"time\": 1.7142840000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.285714\n        },\n        {\n          \"name\": \"A4\",\n          \"midi\": 69,\n          \"time\": 1.9999980000000002,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.285714\n        },\n        {\n          \"name\": \"G4\",\n          \"midi\": 67,\n          \"time\": 2.285712,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.285714\n        },\n        {\n          \"name\": \"F4\",\n          \"midi\": 65,\n          \"time\": 2.571426,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.8571420000000001\n        }\n      ]"
+        },
+        {
+          "title": "1-62",
+          "color": "kolay",
+          "notes": [
+
+          ],
+          "melodynote": "[\n        {\n          \"name\": \"F4\",\n          \"midi\": 65,\n          \"time\": 0,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.42857100000000004\n        },\n        {\n          \"name\": \"E4\",\n          \"midi\": 64,\n          \"time\": 0.42857100000000004,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.42857100000000004\n        },\n        {\n          \"name\": \"D4\",\n          \"midi\": 62,\n          \"time\": 0.8571420000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.42857100000000004\n        },\n        {\n          \"name\": \"C4\",\n          \"midi\": 60,\n          \"time\": 1.285713,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.42857100000000004\n        },\n        {\n          \"name\": \"D4\",\n          \"midi\": 62,\n          \"time\": 1.7142840000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.2142854999999999\n        },\n        {\n          \"name\": \"A#4\",\n          \"midi\": 70,\n          \"time\": 1.9285695,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.2142854999999999\n        },\n        {\n          \"name\": \"G4\",\n          \"midi\": 67,\n          \"time\": 2.142855,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.2142854999999999\n        },\n        {\n          \"name\": \"E4\",\n          \"midi\": 64,\n          \"time\": 2.3571405,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.2142854999999999\n        },\n        {\n          \"name\": \"F4\",\n          \"midi\": 65,\n          \"time\": 2.5714259999999998,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.8571420000000001\n        }\n      ]"
         }
       ]
     }
   ]
 }
+..
