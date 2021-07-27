@@ -90,7 +90,8 @@ export const Page = () => {
                                    ))}
                               </div>
                          </div>
-                    ) : pageData?.description === "melody" ? (
+                    ) : pageData?.description === "melody" ||
+                      pageData?.description === "rhythm" ? (
                          <div
                               className={questionColor(question.color)}
                               key={question.id}>
@@ -102,7 +103,9 @@ export const Page = () => {
                                         )}>
                                         {question.title.toLocaleUpperCase()}
                                    </SoundButton>
-                                   <SoundButton onClick={stopMusic}>
+                                   <SoundButton
+                                        color={question.color}
+                                        onClick={stopMusic}>
                                         Stop
                                    </SoundButton>
                               </div>
