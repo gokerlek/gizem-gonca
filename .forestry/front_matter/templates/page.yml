@@ -3,32 +3,32 @@ label: Page
 hide_body: true
 display_field: title
 fields:
-     - name: title
-       type: text
-       config:
-            required: false
-       label: Title
-     - name: description
-       type: textarea
-       default: ""
-       config:
-            required: false
-            wysiwyg: true
-            schema:
-                 format: markdown
-       label: Description
-     - name: blocks
-       type: blocks
-       template_types:
-            - question
-       config:
-            min:
-            max:
-       label: Blocks
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Description
+- name: blocks
+  type: blocks
+  template_types:
+  - question
+  config:
+    min: 
+    max: 
+  label: Blocks
 pages:
-     - src/cms/pages/exam.json
-     - src/cms/pages/four.json
-     - src/cms/pages/melody.json
-     - src/cms/pages/rhythm.json
-     - src/cms/pages/three.json
-     - src/cms/pages/two.json
+- src/cms/pages/exam.json
+- src/cms/pages/four.json
+- src/cms/pages/melody.json
+- src/cms/pages/rhythm.json
+- src/cms/pages/three.json
+- src/cms/pages/two.json
