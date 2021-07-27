@@ -6,6 +6,14 @@
       "template": "question",
       "questions": [
         {
+          "title": "Soru Adı",
+          "color": "",
+          "notes": [
+
+          ],
+          "melodynote": ""
+        },
+        {
           "title": "1-1",
           "color": "kolay",
           "notes": [
@@ -505,4 +513,3 @@
     }
   ]
 }
-..
