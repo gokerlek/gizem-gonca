@@ -30,6 +30,5 @@ pages:
 - src/cms/pages/four.json
 - src/cms/pages/melody.json
 - src/cms/pages/rhythm-copy.json
-- src/cms/pages/rhythm.json
 - src/cms/pages/three.json
 - src/cms/pages/two.json
