@@ -58,7 +58,6 @@ export const Page = () => {
                     });
           }
      }, [slug, setPageData]);
-     console.log(pageData?.title);
 
      return (
           <Container>
