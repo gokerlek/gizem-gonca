@@ -18,7 +18,7 @@ export const Page = () => {
      const [pageData, setPageData] = useState();
 
      const instrument =
-          pageData?.title === "rhythm" ? "woodblock" : "electric_grand_piano";
+          pageData?.title === "ritim" ? "woodblock" : "electric_grand_piano";
      const { acRef, clavinetRef } = useMidiData(instrument, "FluidR3_GM");
      const handleQuestionClick = (notes) => () => {
           notes.map((note) => {
@@ -90,7 +90,7 @@ export const Page = () => {
                               </div>
                          </div>
                     ) : pageData?.description === "melody" ||
-                      pageData?.description === "rhythm" ? (
+                      pageData?.description === "ritim" ? (
                          <div
                               className={questionColor(question.color)}
                               key={question.id}>
