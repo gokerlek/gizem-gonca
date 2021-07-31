@@ -17,8 +17,8 @@ export const Home = () => {
      console.log(toggle);
      const color = () =>
           classNames(
-               toggle ? `bg-kolay` : "bg-zor",
-               "absolute top-0 left-16 m-12 rounded-full min-w-32 p-5 text-center text-beyaz"
+               toggle ? `bg-kolay hover:bg-zor` : "bg-zor hover:bg-kolay",
+               "absolute top-0 left-16 m-12 rounded-full min-w-32 p-5 text-center text-beyaz cursor-pointer"
           );
 
      const firstNote = MidiNumbers.fromNote("a3");
