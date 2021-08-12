@@ -3,9 +3,10 @@ import { Container } from "../component/container";
 import { Piano, KeyboardShortcuts, MidiNumbers } from "react-piano";
 import classNames from "classnames";
 import "react-piano/dist/styles.css";
-import { useState } from "react";
+import { useState,memo } from "react";
 
-export const Home = () => {
+
+export const Home = memo ( () => {
      const { acRef, clavinetRef } = useMidiData(
           "acoustic_grand_piano",
           "FluidR3_GM"
@@ -15,25 +16,23 @@ export const Home = () => {
      const [toggle, setToggle] = useState(false);
      const toggler = () => setToggle(!toggle);
      console.log(toggle);
-     const color = () =>
-          classNames(
+     const color = classNames(
                toggle ? `bg-kolay hover:bg-zor` : "bg-zor hover:bg-kolay",
                "absolute top-0 left-16 m-12 rounded-full min-w-32 p-5 text-center text-beyaz cursor-pointer"
           );
 
-     const firstNote = MidiNumbers.fromNote("a3");
-     const lastNote = MidiNumbers.fromNote("e5");
-     const keyboardShortcuts = KeyboardShortcuts.create({
-          firstNote: firstNote,
-          lastNote: lastNote,
-          keyboardConfig: KeyboardShortcuts.HOME_ROW,
-     });
-
+const firstNote = MidiNumbers.fromNote("a3");
+const lastNote = MidiNumbers.fromNote("e5");
+const keyboardShortcuts = KeyboardShortcuts.create({
+     firstNote: firstNote,
+     lastNote: lastNote,
+     keyboardConfig: KeyboardShortcuts.HOME_ROW,
+});
      return (
           <>
                <Container>
                     <div className='min-h-screen min-w-full flex items-center static'>
-                         <div onClick={toggler} className={color()}></div>
+                         <div onClick={toggler} className={color}></div>
 
                          <div className='flex min-w-full min-h-full items-center'>
                               <Piano
@@ -42,16 +41,16 @@ export const Home = () => {
                                         last: lastNote,
                                    }}
                                    playNote={(midiNumber) => {
-                                        if (clavinetRef.current?.play) {
-                                             clavinetRef.current?.play(
+                                        if (clavinetRef?.play) {
+                                             clavinetRef?.play(
                                                   midiNumber,
-                                                  acRef.current
+                                                  acRef
                                              );
                                         }
                                    }}
                                    stopNote={() => {
-                                        if (clavinetRef.current?.stop) {
-                                             clavinetRef.current?.stop();
+                                        if (clavinetRef?.stop) {
+                                             clavinetRef?.stop();
                                         }
                                    }}
                                    keyboardShortcuts={keyboardShortcuts}
@@ -240,4 +239,4 @@ export const Home = () => {
                )}
           </>
      );
-};
+});

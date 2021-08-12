@@ -16,21 +16,28 @@ console.log(context.keys());
 export const Page = () => {
      const { slug } = useParams();
      const [pageData, setPageData] = useState();
+     const [instrument, setInstrument]= useState();
 
-     const instrument =
+useEffect(()=>{
+
+     const instruments =
           pageData?.title === "ritim" ? "woodblock" : "electric_grand_piano";
+
+          setInstrument(instruments)
+},[setInstrument, pageData]);
      const { acRef, clavinetRef } = useMidiData(instrument, "FluidR3_GM");
      const handleQuestionClick = (notes) => () => {
           notes.map((note) => {
-               if (clavinetRef.current?.play) {
-                    clavinetRef.current?.play(note.note);
+               if (clavinetRef?.play) {
+                    clavinetRef?.play(note.note);
                }
                return console.log(note.note);
           });
      };
-     const meloditekrari = (notes) => () => {
+     const meloditekrari = (notes) => {
+          if (clavinetRef) {
           notes.map((note) => {
-               clavinetRef.current.schedule(acRef.current, [
+               clavinetRef.schedule(acRef, [
                     {
                          time: note.time,
                          note: note.midi,
@@ -38,12 +45,12 @@ export const Page = () => {
                     },
                ]);
                return console.log(note.time, note.midi, note.duration);
-          });
+          });}
      };
 
      const stopMusic = () => {
-          if (clavinetRef.current?.stop) {
-               clavinetRef.current?.stop();
+          if (clavinetRef?.stop) {
+               clavinetRef?.stop();
           }
      };
      useEffect(() => {
@@ -58,6 +65,9 @@ export const Page = () => {
                     });
           }
      }, [slug, setPageData]);
+
+
+     console.log(instrument)
 
      return (
           <Container>
@@ -97,7 +107,7 @@ export const Page = () => {
                               <div>
                                    <SoundButton
                                         color={question.color}
-                                        onClick={meloditekrari(
+                                        onClick={()=>meloditekrari(
                                              JSON.parse(question.melodynote)
                                         )}>
                                         {question.title.toLocaleUpperCase()}

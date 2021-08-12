@@ -1,11 +1,10 @@
 import { useState, useEffect } from "react";
 
+const navigator = require("web-midi-api");
 export const useMidiIn = () => {
      const [midiArray, setMidiArray] = useState([]);
 
      useEffect(() => {
-          const navigator = require("web-midi-api");
-
           const onMIDISuccess = (midiAccess) => {
                const inputs = midiAccess.inputs;
 

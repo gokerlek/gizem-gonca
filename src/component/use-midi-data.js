@@ -1,25 +1,32 @@
-import { useRef, useEffect } from "react";
+import { useEffect, useState } from "react";
 import * as Soundfont from "soundfont-player";
+import { cancelable, CancelablePromise } from 'cancelable-promise';
 
+const ac = new AudioContext();
 export const useMidiData = (instruments, soundfonts) => {
-     const clavinetRef = useRef();
-     const acRef = useRef();
+     const [clavinet, setClavinet] = useState();
 
      useEffect(() => {
-          const ac = new AudioContext();
-          acRef.current = ac.currentTime;
-
-          Soundfont.instrument(ac, instruments, {
+          let promise;
+          if (instruments) {
+          promise = cancelable( Soundfont.instrument(ac, instruments, {
                soundfont: soundfonts,
-          }).then(function (clavinet) {
-               clavinetRef.current = clavinet;
+          })).then(function (clavinet) {
+               setClavinet(clavinet);
+          });}
+          return ()=>{promise?.cancel()}
+     }, [instruments, soundfonts, setClavinet]);
+
+
+     useEffect(() => {
+          if (clavinet) {
                window.navigator.requestMIDIAccess().then(function (midiAccess) {
                     midiAccess.inputs.forEach(function (midiInput) {
                          clavinet.listenToMidi(midiInput);
                     });
                });
-          });
-     }, [instruments, soundfonts]);
+          }
+     }, [clavinet]);
 
-     return { acRef, clavinetRef };
+     return { acRef: ac.currentTime, clavinetRef: clavinet };
 };
