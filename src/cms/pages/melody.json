@@ -2063,7 +2063,7 @@
         },
         {
           "title": "4-17",
-          "color": "kolay",
+          "color": "zor",
           "notes": [
 
           ],
@@ -2500,6 +2500,318 @@
 
           ],
           "melodynote": "[\n        {\n          \"name\": \"B4\",\n          \"midi\": 71,\n          \"time\": 0,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.8571420000000001\n        },\n        {\n          \"name\": \"A#4\",\n          \"midi\": 70,\n          \"time\": 0.8571420000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.42857100000000004\n        },\n        {\n          \"name\": \"G#4\",\n          \"midi\": 68,\n          \"time\": 1.285713,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.42857100000000004\n        },\n        {\n          \"name\": \"F#4\",\n          \"midi\": 66,\n          \"time\": 1.7142840000000001,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.8571420000000001\n        },\n        {\n          \"name\": \"B4\",\n          \"midi\": 71,\n          \"time\": 2.571426,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.8571420000000001\n        },\n        {\n          \"name\": \"A#4\",\n          \"midi\": 70,\n          \"time\": 3.4285680000000003,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.2142854999999999\n        },\n        {\n          \"name\": \"G#4\",\n          \"midi\": 68,\n          \"time\": 3.6428535,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.2142854999999999\n        },\n        {\n          \"name\": \"F#4\",\n          \"midi\": 66,\n          \"time\": 3.857139,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.2142854999999999\n        },\n        {\n          \"name\": \"E4\",\n          \"midi\": 64,\n          \"time\": 4.0714245,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.2142854999999999\n        },\n        {\n          \"name\": \"D#4\",\n          \"midi\": 63,\n          \"time\": 4.28571,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.4285709999999998\n        },\n        {\n          \"name\": \"E4\",\n          \"midi\": 64,\n          \"time\": 4.714281,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.4285709999999998\n        },\n        {\n          \"name\": \"C#4\",\n          \"midi\": 61,\n          \"time\": 5.1428519999999995,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.8571419999999996\n        },\n        {\n          \"name\": \"B3\",\n          \"midi\": 59,\n          \"time\": 5.999993999999999,\n          \"velocity\": 0.9921259842519685,\n          \"duration\": 0.8571419999999996\n        }\n      ]"
+        },
+        {
+          "title": "5-01",
+          "color": "kolay",
+          "notes": [
+
+          ],
+          "melodynote": ""
+        },
+        {
+          "title": "5-.02",
+          "color": "kolay",
+          "notes": [
+
+          ],
+          "melodynote": ""
+        },
+        {
+          "title": "5-03",
+          "color": "kolay",
+          "notes": [
+
+          ],
+          "melodynote": ""
+        },
+        {
+          "title": "5-04",
+          "color": "kolay",
+          "notes": [
+
+          ],
+          "melodynote": ""
+        },
+        {
+          "title": "5-05",
+          "color": "kolay",
+          "notes": [
+
+          ],
+          "melodynote": ""
+        },
+        {
+          "title": "5-06",
+          "color": "kolay",
+          "notes": [
+
+          ],
+          "melodynote": ""
+        },
+        {
+          "title": "5-07",
+          "color": "kolay",
+          "notes": [
+
+          ],
+          "melodynote": ""
+        },
+        {
+          "title": "5-08",
+          "color": "zor",
+          "notes": [
+
+          ],
+          "melodynote": ""
+        },
+        {
+          "title": "5-09",
+          "color": "zor",
+          "notes": [
+
+          ],
+          "melodynote": ""
+        },
+        {
+          "title": "5-10",
+          "color": "zor",
+          "notes": [
+
+          ],
+          "melodynote": ""
+        },
+        {
+          "title": "5-11",
+          "color": "zor",
+          "notes": [
+
+          ],
+          "melodynote": ""
+        },
+        {
+          "title": "5-12",
+          "color": "zor",
+          "notes": [
+
+          ],
+          "melodynote": ""
+        },
+        {
+          "title": "5-13",
+          "color": "zor",
+          "notes": [
+
+          ],
+          "melodynote": ""
+        },
+        {
+          "title": "5-14",
+          "color": "zor",
+          "notes": [
+
+          ],
+          "melodynote": ""
+        },
+        {
+          "title": "5-15",
+          "color": "zor",
+          "notes": [
+
+          ],
+          "melodynote": ""
+        },
+        {
+          "title": "5-16",
+          "color": "kolay",
+          "notes": [
+
+          ],
+          "melodynote": ""
+        },
+        {
+          "title": "5-17",
+          "color": "zor",
+          "notes": [
+
+          ],
+          "melodynote": ""
+        },
+        {
+          "title": "5-18",
+          "color": "zor",
+          "notes": [
+
+          ],
+          "melodynote": ""
+        },
+        {
+          "title": "5-19",
+          "color": "zor",
+          "notes": [
+
+          ],
+          "melodynote": ""
+        },
+        {
+          "title": "5-20",
+          "color": "zor",
+          "notes": [
+
+          ],
+          "melodynote": ""
+        },
+        {
+          "color": "zor",
+          "notes": [
+
+          ],
+          "melodynote": "",
+          "title": "5-21"
+        },
+        {
+          "title": "5-22",
+          "color": "zor",
+          "notes": [
+
+          ],
+          "melodynote": ""
+        },
+        {
+          "title": "5-23",
+          "color": "zor",
+          "notes": [
+
+          ],
+          "melodynote": ""
+        },
+        {
+          "title": "5-24",
+          "color": "zor",
+          "notes": [
+
+          ],
+          "melodynote": ""
+        },
+        {
+          "title": "5-25",
+          "color": "zor",
+          "notes": [
+
+          ],
+          "melodynote": ""
+        },
+        {
+          "title": "5-26",
+          "color": "zor",
+          "notes": [
+
+          ],
+          "melodynote": ""
+        },
+        {
+          "title": "5-27",
+          "color": "zor",
+          "notes": [
+
+          ],
+          "melodynote": ""
+        },
+        {
+          "title": "5-28",
+          "color": "kolay",
+          "notes": [
+
+          ],
+          "melodynote": ""
+        },
+        {
+          "title": "5-29",
+          "color": "zor",
+          "notes": [
+
+          ],
+          "melodynote": ""
+        },
+        {
+          "title": "5-30",
+          "color": "zor",
+          "notes": [
+
+          ],
+          "melodynote": ""
+        },
+        {
+          "title": "5-31",
+          "color": "kolay",
+          "notes": [
+
+          ],
+          "melodynote": ""
+        },
+        {
+          "title": "5-32",
+          "color": "kolay",
+          "notes": [
+
+          ],
+          "melodynote": ""
+        },
+        {
+          "title": "5-33",
+          "color": "zor",
+          "notes": [
+
+          ],
+          "melodynote": ""
+        },
+        {
+          "title": "5-34",
+          "color": "zor",
+          "notes": [
+
+          ],
+          "melodynote": ""
+        },
+        {
+          "title": "5-35",
+          "color": "zor",
+          "notes": [
+
+          ],
+          "melodynote": ""
+        },
+        {
+          "title": "5-36",
+          "color": "zor",
+          "notes": [
+
+          ],
+          "melodynote": ""
+        },
+        {
+          "title": "5-37",
+          "color": "zor",
+          "notes": [
+
+          ],
+          "melodynote": ""
+        },
+        {
+          "title": "5-38",
+          "color": "zor",
+          "notes": [
+
+          ],
+          "melodynote": ""
+        },
+        {
+          "title": "5-39",
+          "color": "zor",
+          "notes": [
+
+          ],
+          "melodynote": ""
         }
       ]
     }
